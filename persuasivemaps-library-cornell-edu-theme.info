@@ -1,5 +1,5 @@
 name = persuasivemaps-library-cornell-edu-theme
-description = A Bootstrap sub-theme for CORNELL LAW LIBRARY.
+description = A Bootstrap sub-theme for Persuasive Maps.
 core = 7.x
 base theme = bootstrap
 
