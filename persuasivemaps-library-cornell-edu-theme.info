@@ -1,4 +1,4 @@
-name = LAW-LIBRARY
+name = persuasivemaps-library-cornell-edu-theme
 description = A Bootstrap sub-theme for CORNELL LAW LIBRARY.
 core = 7.x
 base theme = bootstrap
