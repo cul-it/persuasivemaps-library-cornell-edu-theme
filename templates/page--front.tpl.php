@@ -78,435 +78,122 @@
 $theme_path = base_path() . 'sites/all/themes/persuasivemaps_bootstrap';
 ?>
 
-<!-- CUL BRANDING -->
-        <section class="cul-branding">
-                <img class="cu-logo" src="<?php print $theme_path; ?>images/cul-branding/cu-logo.png" />
-        </section>
+
+<!-- HEADER -->
+        <header>
+
+            <!-- navbar-static-top MAKES the dropdown to display on top -->
+            <nav class="navbar navbar-default navbar-static-top" role="navigation">
+
+                <div class="container-fluid">
+
+                <!-- Brand and toggle get grouped for better mobile display -->
+                    <div class="navbar-header">
+                       
+
+                        <button type="button" class="navbar-toggle collapsed" data-toggle="collapse" data-target="#bs-example-navbar-collapse-1">
+                            <span class="sr-only">Toggle navigation</span>
+                            <span class="icon-bar"></span>
+                            <span class="icon-bar"></span>
+                            <span class="icon-bar"></span>
+                        </button>
+
+                         <h1>
+                             <a class="cornell-logo" href="#"></a>
+                        </h1>
+                
+                        <h2>
+                            <a href="#">Cornell University Library</a> | <a href="#">Division of Rare & Manuscript Collections</a>
+                        </h2>
+
+                  
+                    </div>
+
+                    <!-- Collect the nav links, forms, and other content for toggling -->
+                    <div class="collapse navbar-collapse" id="bs-example-navbar-collapse-1">
+                        <ul class="nav navbar-nav">
+                            <li class="active"><a href="#">Home</a></li>
+                            <li><a href="#">About</a></li>
+  
+                            <li class="dropdown">
+                                <a href="#" class="dropdown-toggle" data-toggle="dropdown" role="button" aria-expanded="false">Browse Collection <span class="caret"></span></a>
+                                <ul class="dropdown-menu" role="menu">
+                                    <li><a href="#">All Persuasive Maps</a></li>
+                                    <li><a href="#">By Subject (Recommended)</a></li>
+                                    <li><a href="#">Advance Search</a></li>
+                                </ul>
+                            </li>
+                            
+
+
+                            <li><a href="#">Resources</a></li>
+                            <li><a href="#">Thematic Notes</a></li>
+                        </ul>
+
+
+                    </div><!-- /.navbar-collapse -->
+                </div><!-- /.container-fluid -->
+            </nav>
+                    
+        </header>
 
         
 
+        <!-- CONTENT FEATURED MAP AND INTRO -->
+        <section class="home-content row">
 
+            <!-- keep classes LIKE featured-maps AT THE END -->
+            <div class="col-xs-12 col-sm-12 col-md-9 col-lg-9 featured-maps">
 
 
 
-        <!-- HERO CAROUSEL-->
+<div id="owl-demo" class="owl-carousel">
+              <div><img src="<?php print $theme_path; ?>/images/map-1.jpg"><div class="legend">Short Title / Date</div></div>
+              <div><a href=""><img src="<?php print $theme_path; ?>/images/map-2.jpg"><div class="legend">Map Legend</a></div></div>
+              <div><img src="<?php print $theme_path; ?>/images/map-3.jpg"><div class="legend">Map Legend</div></div>
+              <div><img src="<?php print $theme_path; ?>/images/map-4.jpg"><div class="legend">Map Legend</div></div>
 
-        <section class="hero">
-
-            <div id="myCarousel" class="carousel slide carousel-fade">
-
-
-                <!-- Indicators -->
-                <ol class="carousel-indicators">
-                    <li data-target="#myCarousel" data-slide-to="0" class="active"></li>
-                    <li data-target="#myCarousel" data-slide-to="1"></li>
-                    <li data-target="#myCarousel" data-slide-to="2"></li>
-                </ol>
-
-                <div class="carousel-inner">
-
-                    <!-- slide #1 -->
-
-                    <div class="item active" style="background: url('<?php print $theme_path; ?>images/carousel-home/carousel-image-1.jpg') no-repeat left center; background-size: cover;">
-
-                        <div class="container">
-
-                            
-
-
-                            <div class="carousel-caption">
-                                <h1>Scribentur eloquentiam cu eos.</h1>
-                                <p class="lead">Putant evertitur te sed, eos cu habemus perfecto. Id vix nemore dolorem constituto. Ei labore erroribus persecuti vis. Quodsi elaboraret definitionem eos ei.</p>
-
-                            </div>
-
-
-                        </div>
-
-                    </div>
-
-                     <!-- slide #2 -->
-
-                    <div class="item" style="background: url('<?php print $theme_path; ?>images/carousel-home/carousel-image-2.jpg') no-repeat left center; background-size: cover;">
-
-                        <div class="container">
-
-                            
-
-
-                            <div class="carousel-caption">
-                                <h1>Scribentur eloquentiam cu eos.</h1>
-                                <p class="lead">Putant evertitur te sed, eos cu habemus perfecto. Id vix nemore dolorem constituto. Ei labore erroribus persecuti vis. Quodsi elaboraret definitionem eos ei.</p>
-
-                            </div>
-
-
-                        </div>
-
-                    </div>
-
-
-                    <!-- slide #3 -->
-
-                    <div class="item" style="background: url('<?php print $theme_path; ?>images/carousel-home/carousel-image-3.jpg') no-repeat left center; background-size: cover;">
-
-                        <div class="container">
-
-                            
-
-
-                            <div class="carousel-caption">
-                                <h1>Scribentur eloquentiam cu eos.</h1>
-                                <p class="lead">Putant evertitur te sed, eos cu habemus perfecto. Id vix nemore dolorem constituto. Ei labore erroribus persecuti vis. Quodsi elaboraret definitionem eos ei.</p>
-
-                            </div>
-
-
-                        </div>
-
-                    </div>
-
-
-                    
-                    <div class="item" style="background: url('<?php print $theme_path; ?>images/carousel-home/carousel-image-1.jpg') no-repeat left center; background-size: cover;">
-
-                        <div class="container">
-
-
-                            <!--<div class="carousel-caption">
-                                <h1>Example headline.</h1>
-                                <p class="lead">Cras justo odio, dapibus ac facilisis in, egestas eget quam. Donec id elit non mi porta gravida at eget.</p>
-                                <a class="btn btn-large btn-primary" href="#">Sign up today</a>
-                            </div>-->
-
-
-                        </div>
-
-                    </div>
-
-
-                </div>
-
-
-                <!--<a class="left carousel-control" href="#myCarousel" data-slide="prev">&lsaquo;</a>
-                <a class="right carousel-control" href="#myCarousel" data-slide="next">&rsaquo;</a>-->
-
-            </div><!-- /.carousel -->
-
-        </section>
-
-        <!-- LAW BRANDING + MAIN NAVIGATION-->
-        <header class="main-nav">
-
-            <h1>
-                <a href="/"><img class="law-logo" src="<?php print $theme_path; ?>images/law-logo.png" /></a>
-            </h1>
-            
-            <!--<ul>
-                <li><a class="active" href="/" title="">HOME</a> /</li>
-                <li><a href="#" title="">ABOUT <span class="caret-icon">></span></a> /</li>
-                <li><a href="#" title="">USING THE LIBRARY <span class="caret-icon">></span></a> /</li>
-                <li><a href="#" title="">RESEARCH <span class="caret-icon">></span></a> /</li>
-                <li><a href="#" title="">EXPLORE</a></li>
-                <li><a href="#" title="">SPECIAL COLLECTIONS <span class="caret-icon">></span></a> /</li>
-                <li><a href="#" title="">OTHER COLLECTIONS <span class="caret-icon">></span></a></li>
-            </ul>-->
-
-        </header>
-
-        <nav id="nav" role="navigation">
-                
-            <a href="#nav" title="Show navigation">Show navigation</a>
-            <a href="#" title="Hide navigation">Hide navigation</a>
-
-            <ul class="clearfix">
-
-                <li><a class="active" href="index.html">Home</a></li>
-
-                <li>
-                    <a href="#" title="">About</a>
-
-                    <ul class="container-nav">
-                        <div class="row">
-                            <div class="cell">
-                                <li>
-                                    <div class="sub-items">
-                                        <a href="apply.html">Lorem Apopea</a>
-                                        <a href="apply.html">Calisto in tha House</a>
-                                        <a href="apply.html">Laror laborus</a>
-                                        <a href="apply.html">Lacasa casitus</a>
-                                    </div>
-                                </li>
-                            </div>
-
-                            <div class="cell">
-                                <li>
-                                    <div class="sub-items">
-                                        <a href="apply.html">Lorem Apopea</a>
-                                        <a href="apply.html">Calisto in tha House</a>
-                                        <a href="apply.html">Laror laborus</a>
-                                        <a href="apply.html">Lacasa casitus</a>
-                                        
-                                    </div>
-                                </li>
-                            </div>
-                            
-                            <div class="cell">
-                                <li>
-                                    <div class="sub-items">
-                                        <a href="apply.html">Lorem Apopea</a>
-                                        <a href="apply.html">Calisto in tha House</a>
-                                        <a href="apply.html">Laror laborus</a>
-                                        <a href="apply.html">Lacasa casitus</a>
-                                        
-                                    </div>
-                                </li>
-                            </div>
-                        </div>
-                    </ul>   
-                </li>
-
-            </ul>
-        </nav>
-
-
-        <section class="search-home">
-
-            <form action="/">
-                <label for="name">Search</label>
-                <div class="filtered-search">
-
-                    <input type="text" class="form-text" value="" /><a class="filter" href="#">LAW LIBRARY <span class="caret-icon">></span></a>
-                    <a class="submit-search" href="#"><span class="glyphicon glyphicon-search"></span></a>
-                </div>
-            </form>         
-            
-            <ul class="external-search">
-                <li><a href="#">Books in other libraries</a> / </li>
-                <li><a href="#">Databases</a> / </li>
-                <li><a href="#">Research Guides</a></li>
-            </ul>
-
-        </section>
-
-
-        <section class="reservation-hours">
-
-        </section>
-
-
-        <div class="nav">
-            <?php print render($page['navigation']); ?>
         </div>
 
-        <!--<section class="media row">
+                
+            </div>
 
-            <div class="rs-carousel2">
+            <div class="col-xs-12 col-sm-12 col-md-3 col-lg-3 home-intro">
 
-                <div class="carousel-prev"></div>
+                <h3>PERSUASIVE CARTOGRAPHY<span>The P.J. Mode Collection</span></h3>
 
-                <div class="carousel-wrapper">
+                <p>This is a collection of "persuasive" cartography: maps primarily intended to influence the opinion of the viewer, rather than to communicate “objective” geographic information.</p>
 
+                <p>Maps in the collection address a wide range of messages about religion, politics, slavery, temperance, bias, woman’s suffrage, poverty, prostitution, avarice, health and hazard, conservation, romance and marriage, empire, international power, war and peace, advertising and promotion, etc.</p>  
 
-                    <ul class="media-items">
-                        <li class="media-item"> 
-                          
-                            <figure>
-                                <a href="#"><img class="image-media" src="<?php print $theme_path; ?>images/carousel-media/media-item-1.jpg" />
-                                <img class="mask-media" src="<?php print $theme_path; ?>images/carousel-media/mask-media.png" /></a>
+                <p>The collection also reflects a broad spectrum of means for accomplishing the intended persuasion, including allegorical, satirical and pictorial mapping; inclusion (or exclusion) of critical information; significant cartographic elements (projection, scale, perspective, color, text, etc.); and intentional deception.</p>
 
-                                <figcaption>
-                                    Law Library will host Cornell Companions, a pet visitation program
-                                </figcaption>                    
-                            </figure>
+                <p>Learn more about <a href="#">persuasive cartography and the collection</a></p>
 
-                        </li>
+                <!-- Dropdown Browse Collections -->
 
+                <div class="dropdown">
+                    <button class="btn btn-default dropdown-toggle browse-collection" type="button" id="dropdownMenu1" data-toggle="dropdown">
+                    BROWSE COLLECTION<span class="caret"></span>
+                    </button>
+
+                    <ul class="dropdown-menu" role="menu" aria-labelledby="dropdownMenu1">
+                        <li><a href="#">All Persuasive Maps</a></li>
+                        <li><a href="#">By Subject (Recommended)</a></li>
+                        <li><a href="#">Advance Search</a></li>
                     </ul>
-                    
                 </div>
-
-                <div class="carousel-next"></div>
-                
-            </div>
-        </section> -->
-
-
-
-        <section class="media row">
-
-            <div id="owl-demo" class="owl-carousel media-items">
-            
-                
-                <!--Media item-->
-                <div class="item">
-      
-                    <figure>
-                        <a href="#"><img class="image-media" src="<?php print $theme_path; ?>images/carousel-media/media-item-1.jpg" />
-                        <img class="mask-media" src="<?php print $theme_path; ?>images/carousel-media/mask-media.png" /></a>
-
-                        <figcaption>
-                            Law Library will host Cornell Companions, a pet visitation program
-                        </figcaption>                    
-                    </figure>
-
-                </div>
-
-                <!--Media item-->
-                <div class="item">
-      
-                    <figure>
-                        <a href="#"><img class="image-media" src="<?php print $theme_path; ?>images/carousel-media/media-item-1.jpg" />
-                        <img class="mask-media" src="<?php print $theme_path; ?>images/carousel-media/mask-media.png" /></a>
-
-                        <figcaption>
-                            Law Library will host Cornell Companions, a pet visitation program
-                        </figcaption>                    
-                    </figure>
-
-                </div>
-
-                <!--Media item-->
-                <div class="item">
-      
-                    <figure>
-                        <a href="#"><img class="image-media" src="<?php print $theme_path; ?>images/carousel-media/media-item-1.jpg" />
-                        <img class="mask-media" src="<?php print $theme_path; ?>images/carousel-media/mask-media.png" /></a>
-
-                        <figcaption>
-                            Law Library will host Cornell Companions, a pet visitation program
-                        </figcaption>                    
-                    </figure>
-
-                </div>
-
-                <!--Media item-->
-                <div class="item">
-      
-                    <figure>
-                        <a href="#"><img class="image-media" src="<?php print $theme_path; ?>images/carousel-media/media-item-1.jpg" />
-                        <img class="mask-media" src="<?php print $theme_path; ?>images/carousel-media/mask-media.png" /></a>
-
-                        <figcaption>
-                            Law Library will host Cornell Companions, a pet visitation program
-                        </figcaption>                    
-                    </figure>
-
-                </div>
-
-                <!--Media item-->
-                <div class="item">
-      
-                    <figure>
-                        <a href="#"><img class="image-media" src="<?php print $theme_path; ?>images/carousel-media/media-item-1.jpg" />
-                        <img class="mask-media" src="<?php print $theme_path; ?>images/carousel-media/mask-media.png" /></a>
-
-                        <figcaption>
-                            Law Library will host Cornell Companions, a pet visitation program
-                        </figcaption>                    
-                    </figure>
-
-                </div>
-
-                <!--Media item-->
-                <div class="item">
-      
-                    <figure>
-                        <a href="#"><img class="image-media" src="<?php print $theme_path; ?>images/carousel-media/media-item-1.jpg" />
-                        <img class="mask-media" src="<?php print $theme_path; ?>images/carousel-media/mask-media.png" /></a>
-
-                        <figcaption>
-                            Law Library will host Cornell Companions, a pet visitation program
-                        </figcaption>                    
-                    </figure>
-
-                </div>
-
-                <!--Media item-->
-                <div class="item">
-      
-                    <figure>
-                        <a href="#"><img class="image-media" src="<?php print $theme_path; ?>images/carousel-media/media-item-1.jpg" />
-                        <img class="mask-media" src="<?php print $theme_path; ?>images/carousel-media/mask-media.png" /></a>
-
-                        <figcaption>
-                            Law Library will host Cornell Companions, a pet visitation program
-                        </figcaption>                    
-                    </figure>
-
-                </div>
-
-                <!--Media item-->
-                <div class="item">
-      
-                    <figure>
-                        <a href="#"><img class="image-media" src="<?php print $theme_path; ?>images/carousel-media/media-item-1.jpg" />
-                        <img class="mask-media" src="<?php print $theme_path; ?>images/carousel-media/mask-media.png" /></a>
-
-                        <figcaption>
-                            Law Library will host Cornell Companions, a pet visitation program
-                        </figcaption>                    
-                    </figure>
-
-                </div>
-
-                <!--Media item-->
-                <div class="item">
-      
-                    <figure>
-                        <a href="#"><img class="image-media" src="<?php print $theme_path; ?>images/carousel-media/media-item-1.jpg" />
-                        <img class="mask-media" src="<?php print $theme_path; ?>images/carousel-media/mask-media.png" /></a>
-
-                        <figcaption>
-                            Law Library will host Cornell Companions, a pet visitation program
-                        </figcaption>                    
-                    </figure>
-
-                </div>
-
-                <!--Media item-->
-                <div class="item">
-      
-                    <figure>
-                        <a href="#"><img class="image-media" src="<?php print $theme_path; ?>images/carousel-media/media-item-1.jpg" />
-                        <img class="mask-media" src="<?php print $theme_path; ?>images/carousel-media/mask-media.png" /></a>
-
-                        <figcaption>
-                            Law Library will host Cornell Companions, a pet visitation program
-                        </figcaption>                    
-                    </figure>
-
-                </div>
-
-                <!--Media item-->
-                <div class="item">
-      
-                    <figure>
-                        <a href="#"><img class="image-media" src="<?php print $theme_path; ?>images/carousel-media/media-item-1.jpg" />
-                        <img class="mask-media" src="<?php print $theme_path; ?>images/carousel-media/mask-media.png" /></a>
-
-                        <figcaption>
-                            Law Library will host Cornell Companions, a pet visitation program
-                        </figcaption>                    
-                    </figure>
-
-                </div>
-
             </div>
 
-            <div class="customNavigation">
-                <a class="btn prev">Previous</a>
-                <a class="btn next">Next</a>
-                <a class="btn play">Autoplay</a>
-                <a class="btn stop">Stop</a>
-            </div>
         </section>
 
-                        
-    
-
-    
-        <footer class="row">
-              <?php print render($page['footer']); ?>
+        <!-- FOOTER -->
+        <footer>
+            <nav>
+                <ul class="list-inline">
+                    <li><a href="#">Feedback</a> </li>
+                    <li><a href="#">Copyright</a></li>
+                </ul> 
+            </nav>
         </footer>
 
