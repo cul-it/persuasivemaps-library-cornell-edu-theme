@@ -146,6 +146,8 @@ $theme_path = base_path() . 'sites/all/themes/persuasivemaps_bootstrap';
 
                 <h3>PERSUASIVE CARTOGRAPHY<span>The P.J. Mode Collection</span></h3>
 
+                <?php print render($page['content']); ?>
+
                 <h4>About Persuasive Cartography</h4>
 
                 <p>This is a collection of  “persuasive cartography,” maps primarily intended to influence the opinion of the viewer rather than to communicate “objective” geographic information (Tyner 1974). Maps of this sort have also been described as “suggestive cartography,” “rhetorical cartography” and “propaganda maps” (a less apt term, because the word “propaganda” has become a pejorative).</p> 
