@@ -148,19 +148,6 @@ $theme_path = base_path() . 'sites/all/themes/persuasivemaps_bootstrap';
 
                 <?php print render($page['content']); ?>
 
-                <h4>About Persuasive Cartography</h4>
-
-                <p>This is a collection of  “persuasive cartography,” maps primarily intended to influence the opinion of the viewer rather than to communicate “objective” geographic information (Tyner 1974). Maps of this sort have also been described as “suggestive cartography,” “rhetorical cartography” and “propaganda maps” (a less apt term, because the word “propaganda” has become a pejorative).</p> 
-                <p>In fact, no map provides an entirely objective view of reality.  Even the best-intended cartographer must decide what projection to use, what features to include and what to exclude, what colors, what shading, what text, what images – all of which shape the message communicated by the finished product. Every map is somewhere along a spectrum from objective to subjective, from science to art. We deal here with maps that have crossed a line – itself admittedly subjective – into the preference for communicating some message other than objective geographic information.</p>
-                
-                <p>Why maps? Why not paintings or sculpture or other persuasive visual images, or for that matter, persuasion by the written word alone? Are the messages communicated by Guernica and To Kill a Mockingbird somehow less persuasive than those embodied in maps? The answer is that maps are different from other forms of communication in one significant way. In a Dutch emblem book from 1714, there is a portrait by Vincent Vander Vinne of a mapmaker looking up intently from his charts:
-                </p>
-
-                <p>This is a collection of  “persuasive cartography,” maps primarily intended to influence the opinion of the viewer rather than to communicate “objective” geographic information (Tyner 1974). Maps of this sort have also been described as “suggestive cartography,” “rhetorical cartography” and “propaganda maps” (a less apt term, because the word “propaganda” has become a pejorative).</p> 
-                <p>In fact, no map provides an entirely objective view of reality.  Even the best-intended cartographer must decide what projection to use, what features to include and what to exclude, what colors, what shading, what text, what images – all of which shape the message communicated by the finished product. Every map is somewhere along a spectrum from objective to subjective, from science to art. We deal here with maps that have crossed a line – itself admittedly subjective – into the preference for communicating some message other than objective geographic information.</p>
-                
-                <p>Why maps? Why not paintings or sculpture or other persuasive visual images, or for that matter, persuasion by the written word alone? Are the messages communicated by Guernica and To Kill a Mockingbird somehow less persuasive than those embodied in maps? The answer is that maps are different from other forms of communication in one significant way. In a Dutch emblem book from 1714, there is a portrait by Vincent Vander Vinne of a mapmaker looking up intently from his charts:
-                </p>
             </div>
 
             <div class="col-xs-12 col-sm-12 col-md-12 col-lg-3 side-bar">
@@ -168,12 +155,7 @@ $theme_path = base_path() . 'sites/all/themes/persuasivemaps_bootstrap';
                     <li><a href="#">Suggestive Cartography</a></li>
                     <li><a href="#">History of the Collection</a></li>
                 </ul>   
-            </div>
-
-
-            
-
-            
+            </div> 
 
         </section>
 
