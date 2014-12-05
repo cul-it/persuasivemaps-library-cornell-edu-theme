@@ -28,7 +28,7 @@ $theme_path = base_path() . 'sites/all/themes/persuasivemaps_bootstrap';
         <?php print $styles; ?>
 
         <!-- Optional theme -->
-        <link href="<?php print $theme_path; ?>css/styles.css" rel="stylesheet" media="screen">
+        <link href="<?php print $theme_path; ?>/css/styles.css" rel="stylesheet" media="screen">
 
         <!-- Owl Carousel Assets -->
         <link href="<?php print $theme_path; ?>/js/owl.carousel/owl-carousel/owl.carousel.css" rel="stylesheet">
@@ -62,28 +62,12 @@ $theme_path = base_path() . 'sites/all/themes/persuasivemaps_bootstrap';
    
     <script type="text/javascript" src="<?php print $theme_path; ?>/js/owl.carousel/owl-carousel/owl.carousel.js"></script>  
        
-    <!-- Utils
-    <script type="text/javascript" src="<?php print $theme_path; ?>js/utils.js"></script>-->
+    <!-- Utils -->
+    <script type="text/javascript" src="<?php print $theme_path; ?>/js/utils.js"></script>
 
 
 
 
-    <script>
-        $(document).ready(function() {
-            $("#owl-demo").owlCarousel({
-                autoPlay : false,
-                stopOnHover : true,
-                pagination: false,
-                paginationSpeed : 1000,
-                goToFirstSpeed : 2000,
-                singleItem : true,
-                autoHeight : true,
-                transitionStyle:"fade",
-                navigation:true,
-                navigationText : ["<",">"]
-            });
-        });
-    </script>
     
     
     </body>
