@@ -1,0 +1,825 @@
+
+.show-grid [class^="col-"]  {
+    
+    background-color: rgba(86, 61, 124, 0.15);
+    border: 1px solid rgba(86, 61, 124, 0.2);
+    padding-bottom: 10px;
+    padding-top: 10px;
+}
+
+// COLORS
+
+$blue: #084ea6;
+$dark-blue: #3e464f;
+$dark-gray: #3e464f;
+$medium-dark-blue: #637793;
+
+.blue {
+    background-color: $blue;
+}
+
+.drak-blue {
+    background-color: $dark-blue;
+}
+
+.drak-gray {
+    background-color: $dark-gray;
+}
+
+// RESET
+.row {
+    margin: 0;
+
+    //margin-left: -15px;
+    //margin-right: -15px;
+}
+
+
+ul {
+    list-style-type: none !important;
+}
+
+
+
+body {
+    background-color: $dark-blue;
+    background-color: #51534a;
+    font-family:'Source Sans Pro', helvetica, Sans-serif, Arial, Verdana;
+
+}
+
+header {
+
+    z-index: 9999;
+
+    background-color: #fff;
+    height: 73px;
+
+    .navbar-default {
+        background-color: #fff;
+        border-color: none;
+        border: none;
+
+         .navbar-nav {
+
+            li {
+                
+                padding-top: 10px;
+            }
+
+            .active > a, 
+            .active > a:hover, 
+            .active > a:focus {
+                background-color: #fff;
+                color: #000;
+            }
+        
+            a {
+                padding-bottom: 5px;
+                padding-top: 5px;
+                font-size: 18px;
+                color: $blue;
+                border-right: none;
+                
+            }
+            
+        }
+    }
+
+    .navbar {
+
+        .navbar-header {
+
+            margin-top: 10px;
+
+            vertical-align: middle;
+
+            h1 {
+
+                
+                
+                display: inline-block;
+                margin: 0;
+                padding: 0;
+
+                padding-left: 10px;
+             
+                vertical-align: middle;
+                
+                
+                
+
+                .cornell-logo {
+                    
+                    height: 52px;
+                    width: 49px;
+                    display: inline-block;
+
+
+                    background: #fff url("../images/cornell-logo-mobile.jpg") no-repeat top left; 
+                }
+            }
+
+            h2 {
+                vertical-align: middle;
+
+                
+                margin: 0;
+                padding: 0;
+                display: inline-block;
+                
+                width: 65%;
+                padding-left: 10px;
+
+                font-size: 16px;
+                line-height: 20px;
+
+                a {
+                    
+                    color: $dark-gray;
+                    
+                }
+            }
+
+        }
+
+    }
+
+}
+
+
+
+
+
+.home-content {
+    //background-color: $dark-blue;
+    background-color: #51534a;
+
+    .featured-maps {
+
+        //border-bottom: 1px solid $medium-dark-blue;
+        border-bottom: 1px solid #6e6f69;
+        padding-bottom: 0;
+        padding-top: 0;
+        padding-left: 0;
+        padding-right: 0;
+    }
+
+    .home-intro {
+
+        color: #fff;
+
+        h3 {
+            font-size: 30px;
+            font-weight: 700;
+
+            span {
+                display: block;
+                font-size: 26px;
+                font-weight: 400;
+            }
+
+            margin-top: 40px;
+        }
+
+        p {
+            font-size: 20px;
+
+            a {
+                color: #fff;
+                text-decoration: underline;  
+            }
+
+            a:hover {
+                text-decoration: none;  
+            }
+
+        }
+
+        .dropdown {
+            margin-top: 20px;
+            margin-bottom: 30px;
+
+            li {
+
+                a {
+                    font-size: 18px;
+                }
+            }
+        }
+
+        .browse-collection {
+            background-color: $blue;
+            color: #fff;
+            border: none;
+            font-size: 20px;
+            padding: 10px;
+
+            .caret {
+                margin-left: 7px;
+            }
+
+            
+        }
+
+    }
+
+}
+
+footer {
+    padding-left: 20px;
+    //border-top: 1px solid $medium-dark-blue;
+    //border-top: 1px solid #6e6f69;
+    padding-top: 20px;
+    margin-top: 20px;
+    float: left;
+    margin-right: 20px;
+
+    a {
+        color: #fff;
+        text-decoration: underline;
+        font-size: 17px;
+
+        &:hover {
+            color: #fff;
+            text-decoration: none;
+        }
+    }
+}
+
+  
+#owl-demo .owl-item div{
+    padding: 0;
+}
+#owl-demo .owl-item img {
+    display: block;
+    width: 100%;
+    margin: 0 auto;
+    height: auto;
+    -webkit-border-radius: 3px;
+    -moz-border-radius: 3px;
+    border-radius: 3px;
+}
+
+#owl-demo .owl-item .legend {
+    padding: 10px;
+    color: #fff;
+    text-align: center;
+    margin-top: 0;
+    font-size: 22px;
+}
+
+.owl-theme .owl-controls .owl-buttons div {
+    background: none;
+    color: #fff !important;
+    display: inline-block;
+    font-size: 80px;
+    opacity: 1;
+}
+
+
+.owl-theme .owl-controls {
+    position: absolute;
+    top: 40%;
+    width: 97%;
+    padding: 0 !important;
+    margin: 0 !important;
+    margin-left: 20px !important;
+}
+
+.owl-theme .owl-controls .owl-buttons div.owl-prev {
+    display: none !important; 
+    float: left !important; 
+    padding: 0;
+    margin: 0;
+    font-family: 'Quicksand';
+}
+
+.owl-theme .owl-controls .owl-buttons div.owl-next {
+    display: none !important; 
+    float: right !important; 
+    padding: 0;
+    margin: 0;  
+    font-family: 'Quicksand';
+}
+
+// SECONDARY PAGES
+.inteior-content {
+
+    min-height: 600px;
+
+    color: #fff;
+
+        h3 {   
+
+
+            text-align: center;
+            font-size: 20px;
+            font-weight: 700;
+            border-bottom: 1px solid #6e6f69;
+            padding-bottom: 20px;
+
+            span {
+                display: block;
+                font-size: 18px;
+                font-weight: 400;
+            }
+
+            margin-top: 40px;
+        }
+
+        h4 {
+            font-size: 30px;
+            margin-top: 20px;
+        }
+
+        p {
+            font-size: 16px;
+
+            a {
+                color: #fff;
+                text-decoration: underline;  
+            }
+
+            a:hover {
+                text-decoration: none;  
+            }
+
+        }
+
+    .interior-copy {
+
+    }
+
+    .side-bar {
+
+        margin-top: 20px;
+        border-top: 1px solid #6e6f69;
+        padding-top: 20px;
+
+        ul {
+
+
+            list-style-type: disc !important;
+
+
+            li {
+                font-size: 16px;
+
+                a {
+                    color: #fff;
+                    text-decoration: underline;
+                }
+
+                a:hover {
+                    text-decoration: none;  
+                }
+            }
+
+            li::after {
+                content: ">";
+                font-family: 'Quicksand';
+                padding-left: 3px;
+                font-size: 14px;
+            }
+        
+        }
+
+    }
+
+
+}
+
+/*later  
+
+.name-node {
+
+    .inteior-content {
+
+        background: url("../images/about.jpg") repeat-y left top;
+
+    }
+
+}
+*/
+
+.inteior-content.about {
+
+    //background: url("../images/about.jpg") repeat-y left top;
+
+}
+
+
+/* Extra small devices (phones, up to 480px) */
+/* No media query since this is the default in Bootstrap */
+
+/*
+ __                 _ _   _____      _     _      _       
+/ _\_ __ ___   __ _| | | /__   \__ _| |__ | | ___| |_ ___ 
+\ \| '_ ` _ \ / _` | | |   / /\/ _` | '_ \| |/ _ \ __/ __|
+_\ \ | | | | | (_| | | |  / / | (_| | |_) | |  __/ |_\__ \
+\__/_| |_| |_|\__,_|_|_|  \/   \__,_|_.__/|_|\___|\__|___/
+
+*/
+
+@media (min-width: 480px) {
+
+    body {
+        //border: 3px solid red;
+   
+    } 
+
+}
+
+/*
+ _____      _     _      _       
+/__   \__ _| |__ | | ___| |_ ___ 
+  / /\/ _` | '_ \| |/ _ \ __/ __|
+ / / | (_| | |_) | |  __/ |_\__ \
+ \/   \__,_|_.__/|_|\___|\__|___/
+                                 
+*/
+/* Small devices (tablets, 768px and up) */
+@media (min-width: 768px) {
+    body {
+        
+
+    }
+
+
+    header .navbar .navbar-header h2 {
+
+        width: 500px;
+        
+    }
+
+    header {
+
+        height: 120px;
+
+        
+
+        .navbar {
+            background-color: #fff;
+            border-color: none;
+            
+
+            //LOGO + CUL + DRMC
+            .navbar-header {
+
+                width: 580px;
+               
+            }
+
+            //MAIN NAV
+            #bs-example-navbar-collapse-1 {
+
+                padding-top: 0;
+                float: left;
+               
+
+                .navbar-nav {
+
+                li {
+                    //height: 18px;
+                    padding-top: 10px;
+
+                    a {
+                        font-size: 20px;
+                   
+                    }
+                  
+
+                }
+
+                .active > a, 
+                .active > a:hover, 
+                .active > a:focus {
+                    background-color: #fff;
+                    color: #000;
+                }
+            
+                a {
+                    padding-bottom: 5px;
+                    padding-top: 5px;
+                    font-size: 18px;
+                    color: $blue;
+                    border-right: 1px solid gray;
+                    
+                }
+
+
+                .dropdown {
+             
+
+                    li {
+
+
+                        a {
+                            font-size: 20px;
+                            border-right: none;
+
+                        }
+                    }
+                }
+                
+            }
+            }
+
+
+        }
+         
+
+    }
+
+   
+    
+
+    #owl-demo .owl-item div{
+        padding: 30px;
+    }
+    #owl-demo .owl-item img {
+        display: block;
+        width: 90%;
+        margin: 0 auto;
+        height: auto;
+        -webkit-border-radius: 3px;
+        -moz-border-radius: 3px;
+        border-radius: 3px;
+    }
+
+    .owl-theme .owl-controls {
+        position: absolute;
+        top: 40%;
+        width: 97%;
+        padding: 0 !important;
+        margin: 0 !important;
+        margin-left: 20px !important;
+    }
+
+    .owl-theme .owl-controls .owl-buttons div.owl-prev {
+        display: block !important; 
+        float: left !important; 
+        padding: 0;
+        margin: 0;
+        font-family: 'Quicksand';
+    }
+
+    .owl-theme .owl-controls .owl-buttons div.owl-next {
+        display: block !important; 
+        float: right !important; 
+        padding: 0;
+        margin: 0;  
+        font-family: 'Quicksand';
+    }
+
+
+
+
+    .home-content {
+        //background-color: $dark-blue;
+        background-color: #51534a;
+
+        .featured-maps {
+
+            //border-bottom: 1px solid $medium-dark-blue;
+            border-bottom: 1px solid #6e6f69;
+            padding-bottom: 0;
+            padding-top: 0;
+            padding-left: 0;
+            padding-right: 0;
+        }
+
+
+    }
+
+
+
+    // SECONDARY PAGES
+    .inteior-content {
+
+
+        .interior-copy {
+
+            padding-left: 200px;
+
+        }
+
+        .side-bar {
+
+            padding-left: 0;
+            margin-top: 20px;
+            border-top: 1px solid #6e6f69;
+            padding-top: 20px;
+            margin-left: 200px;
+            width: 300px;
+            border: 1px solid red;
+        }
+
+
+    }
+
+    /*later  
+
+    .name-node {
+
+        .inteior-content {
+
+            background: url("../images/about.jpg") repeat-y left top;
+
+        }
+
+    }
+    */
+
+    .inteior-content.about {
+
+        background: url("../images/about.jpg") repeat-y left top;
+
+    }
+
+    
+}
+
+    
+
+ /*  
+    ___          _    _              
+   /   \___  ___| | _| |_ ___  _ __  
+  / /\ / _ \/ __| |/ / __/ _ \| '_ \ 
+ / /_//  __/\__ \   <| || (_) | |_) |
+/___,' \___||___/_|\_\\__\___/| .__/ 
+                              |_|    
+ */
+
+/* Medium devices (desktops, 992px and up) */
+
+@media (min-width: 992px) {  
+    body {
+       
+    }
+
+    .home-content {
+        
+
+        .featured-maps {
+
+            width: 100%;
+        }
+
+        .home-intro {
+            width: 100%;
+        }
+    }
+
+    // SECONDARY PAGES
+    .inteior-content {
+
+
+
+        h3 {   
+            font-size: 30px;
+        }
+
+        h4 {
+            font-size: 36px;
+           
+        }
+
+        p {
+            font-size: 20px;
+            
+
+        }
+
+        .interior-copy {
+
+            padding-left: 200px;
+            
+
+        }
+
+        .side-bar {
+            
+            margin-top: 100px;
+            border: none;
+            padding-top: 20px;
+            margin-left: 0;
+            padding-left: 30px;
+
+            ul {
+
+                li {
+
+                    font-size: 20px;
+                }
+            }
+
+        }
+
+
+    }
+
+}
+
+
+/*
+   __                           ___          _    _              
+  / /  __ _ _ __ __ _  ___     /   \___  ___| | _| |_ ___  _ __  
+ / /  / _` | '__/ _` |/ _ \   / /\ / _ \/ __| |/ / __/ _ \| '_ \ 
+/ /__| (_| | | | (_| |  __/  / /_//  __/\__ \   <| || (_) | |_) |
+\____/\__,_|_|  \__, |\___| /___,' \___||___/_|\_\\__\___/| .__/ 
+                |___/                                     |_|    
+*/
+/* Large devices (large desktops, 1200px and up) */
+
+@media (min-width: 1200px) { 
+    body {
+        
+    }
+
+    .home-content {
+        
+        .featured-maps {
+
+            width: 75%;
+            border-bottom: none;
+        }
+
+        .home-intro {
+            width: 25%;
+
+            h3 {
+                margin-top: 50px;
+                font-size: 30px;
+            }
+
+            p {
+                font-size: 20px;
+            }
+        }
+    }
+
+}
+
+
+@media (min-width: 1257px) { 
+
+    header {
+        height: 75px;
+    }
+ 
+    header .navbar #bs-example-navbar-collapse-1 {
+  
+        float: right;
+        padding-top: 15px;
+        
+    
+    }
+
+}
+
+
+
+
+
+
+
+@media (min-width: 1440px) { 
+    body {
+        
+    }
+
+}
+
+
+@media (min-width: 1700px) { 
+    body {
+
+    }
+
+    header {
+
+        .navbar {
+
+            
+
+            .navbar-header { 
+
+                float: left;
+
+                h2 {
+
+                    width: 500px;
+                    display: inline-block;
+                    
+                }
+
+            }
+
+           
+        }
+    }
+}
+
+
