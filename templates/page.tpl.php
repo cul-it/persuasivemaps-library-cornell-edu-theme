@@ -75,7 +75,7 @@
 ?>
 
 <?php
-$theme_path = base_path() . 'sites/all/themes/law_library_bootstrap/';
+$theme_path = base_path() . 'sites/all/themes/persuasivemaps_bootstrap';
 ?>
 
 <!-- CUL BRANDING  <?php print $theme_path; ?> -->

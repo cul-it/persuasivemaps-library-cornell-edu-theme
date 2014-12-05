@@ -1,5 +1,5 @@
 <?php
-$theme_path = base_path() . 'sites/all/themes/law_library_bootstrap/';
+$theme_path = base_path() . 'sites/all/themes/persuasivemaps_bootstrap';
 ?>
 
 <!DOCTYPE html>
@@ -20,24 +20,21 @@ $theme_path = base_path() . 'sites/all/themes/law_library_bootstrap/';
         <meta name="viewport" content="width=device-width, initial-scale=1.0"> <!-- removing initial-scale=1.0 disables zooming capabilities -->
 
         <!-- Google fonts -->
-        <link href='http://fonts.googleapis.com/css?family=Libre+Baskerville:400,700' rel='stylesheet' type='text/css'>
-        <link href='http://fonts.googleapis.com/css?family=Montserrat:400,700' rel='stylesheet' type='text/css'>
+        <link href='http://fonts.googleapis.com/css?family=Quicksand:400,300' rel='stylesheet' type='text/css'>
+        <link href='http://fonts.googleapis.com/css?family=Source+Sans+Pro:400,700' rel='stylesheet' type='text/css'>
+
+        <link href="http://maxcdn.bootstrapcdn.com/font-awesome/4.2.0/css/font-awesome.min.css" rel="stylesheet">
 
         <?php print $styles; ?>
 
         <!-- Optional theme -->
         <link href="<?php print $theme_path; ?>css/styles.css" rel="stylesheet" media="screen">
 
-
-         <!-- Important Owl stylesheet -->
-        <link rel="stylesheet" href="<?php print $theme_path; ?>js/owl.carousel/owl-carousel/owl.carousel.css">
-         
-        <!-- Default Theme -->
-        <link rel="stylesheet" href="<?php print $theme_path; ?>js/owl.carousel/owl-carousel/owl.theme.css">
-
-
-        
-        
+        <!-- Owl Carousel Assets -->
+        <link href="<?php print $theme_path; ?>/js/owl.carousel/owl-carousel/owl.carousel.css" rel="stylesheet">
+        <link href="<?php print $theme_path; ?>/js/owl.carousel/owl-carousel/owl.theme.css" rel="stylesheet">
+        <link href="<?php print $theme_path; ?>/js/owl.carousel/owl-carousel/owl.transitions.css" rel="stylesheet">
+  
 
         <!-- HTML5 shim and Respond.js IE8 support of HTML5 elements and media queries -->
         <!--[if lt IE 9]>
@@ -59,48 +56,35 @@ $theme_path = base_path() . 'sites/all/themes/law_library_bootstrap/';
     <?php print $page; ?>
     <?php print $page_bottom; ?>
 
-
-    <script type="text/javascript" src="http://code.jquery.com/jquery-1.10.2.min.js"></script>
+    <!--<script type="text/javascript" src="http://code.jquery.com/jquery-1.10.2.min.js"></script>-->
+    <script src="<?php print $theme_path; ?>/js/jquery-1.9.1.min.js"></script> 
     <script type="text/javascript" src="https://netdna.bootstrapcdn.com/bootstrap/3.1.1/js/bootstrap.min.js"></script>
-
-
-    <!-- ############################################# -->
-    <!-- ############################################# -->
-
-    <!-- Carousel https://github.com/richardscarrott/jquery-ui-carousel -->
-    <!-- carousel CSS -->
-    <!--<link rel="stylesheet" type="text/css" href="<?php print $theme_path; ?>js/jquery-ui-carousel-master/css/jquery.rs.carousel.css" media="all" />-->
-
-    <!-- lib -->
-
-    <!--<script type="text/javascript" src="<?php print $theme_path; ?>js/jquery.ui.widget.js"></script>-->
-    <!-- if using touch -->
-    <!--<script type="text/javascript" src="<?php print $theme_path; ?>js/jquery.event.drag.js"></script>-->
-    <!-- if using touch and translate3d -->
-    <!--<script type="text/javascript" src="<?php print $theme_path; ?>js/jquery.translate3d.js"></script>-->
-
-    <!-- carousel core -->
-    <!--<script type="text/javascript" src="<?php print $theme_path; ?>js/jquery-ui-carousel-master/js/jquery.rs.carousel.js"></script>-->
-
-    <!-- carousel extensions (optional) -->
-    <!--<script type="text/javascript" src="<?php print $theme_path; ?>js/jquery-ui-carousel-master/js/jquery.rs.carousel-autoscroll.js"></script>
-    <script type="text/javascript" src="<?php print $theme_path; ?>js/jquery-ui-carousel-master/js/jquery.rs.carousel-continuous.js"></script>
-    <script type="text/javascript" src="<?php print $theme_path; ?>js/jquery-ui-carousel-master/js/jquery.rs.carousel-touch.js"></script>-->
-
-    <!-- ############################################# -->
-    <!-- ############################################# -->
-
    
-     
-    <!-- carousel -->
-    <script type="text/javascript" src="<?php print $theme_path; ?>js/owl.carousel/owl-carousel/owl.carousel.js"></script>
+    <script type="text/javascript" src="<?php print $theme_path; ?>/js/owl.carousel/owl-carousel/owl.carousel.js"></script>  
+       
+    <!-- Utils
+    <script type="text/javascript" src="<?php print $theme_path; ?>js/utils.js"></script>-->
 
-    <!-- megamenus -->
-    <script type="text/javascript" src="<?php print $theme_path; ?>js/doubletaptogo.js"></script>
-    <script type="text/javascript" src="<?php print $theme_path; ?>js/main.js"></script>
 
-    <!-- Utils -->
-    <script type="text/javascript" src="<?php print $theme_path; ?>js/utils.js"></script>
+
+
+    <script>
+        $(document).ready(function() {
+            $("#owl-demo").owlCarousel({
+                autoPlay : false,
+                stopOnHover : true,
+                pagination: false,
+                paginationSpeed : 1000,
+                goToFirstSpeed : 2000,
+                singleItem : true,
+                autoHeight : true,
+                transitionStyle:"fade",
+                navigation:true,
+                navigationText : ["<",">"]
+            });
+        });
+    </script>
+    
     
     </body>
 </html>
