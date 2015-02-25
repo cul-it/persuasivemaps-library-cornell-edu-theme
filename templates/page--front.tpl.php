@@ -112,8 +112,8 @@ $theme_path = base_path() . 'sites/all/themes/persuasivemaps_bootstrap';
                     <!-- Collect the nav links, forms, and other content for toggling -->
                     <div class="collapse navbar-collapse" id="bs-example-navbar-collapse-1">
                         <ul class="nav navbar-nav">
-                            <li class="active"><a href="#">Home</a></li>
-                            <li><a href="#">About</a></li>
+                            <li class="active"><a href="/">Home</a></li>
+                            <li><a href="/about">About</a></li>
   
                             <li class="dropdown">
                                 <a href="#" class="dropdown-toggle" data-toggle="dropdown" role="button" aria-expanded="false">Browse Collection <span class="caret"></span></a>
@@ -126,8 +126,8 @@ $theme_path = base_path() . 'sites/all/themes/persuasivemaps_bootstrap';
                             
 
 
-                            <li><a href="#">Resources</a></li>
-                            <li><a href="#">Thematic Notes</a></li>
+                            <li><a href="/resources">Resources</a></li>
+                            <li><a href="/thematic-notes">Thematic Notes</a></li>
                         </ul>
 
 
