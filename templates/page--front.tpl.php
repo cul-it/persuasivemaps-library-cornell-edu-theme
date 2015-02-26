@@ -192,9 +192,6 @@ $theme_path = base_path() . 'sites/all/themes/persuasivemaps_bootstrap';
         <!-- FOOTER -->
         <footer>
             <nav>
-                <ul class="list-inline">
-                    <li><a href="#">Feedback</a> </li>
-                    <li><a href="#">Copyright</a></li>
-                </ul> 
+                <?php print render($page['footer']); ?>
             </nav>
         </footer>
