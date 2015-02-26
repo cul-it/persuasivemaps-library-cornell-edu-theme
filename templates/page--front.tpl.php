@@ -164,11 +164,9 @@ $theme_path = base_path() . 'sites/all/themes/persuasivemaps_bootstrap';
 
                 <h3>PERSUASIVE CARTOGRAPHY<span>The P.J. Mode Collection</span></h3>
 
-                <p>This is a collection of "persuasive" cartography: maps primarily intended to influence the opinion of the viewer, rather than to communicate “objective” geographic information.</p>
-
-                <p>Maps in the collection address a wide range of messages about religion, politics, slavery, temperance, bias, woman’s suffrage, poverty, prostitution, avarice, health and hazard, conservation, romance and marriage, empire, international power, war and peace, advertising and promotion, etc.</p>  
-
-                <p>The collection also reflects a broad spectrum of means for accomplishing the intended persuasion, including allegorical, satirical and pictorial mapping; inclusion (or exclusion) of critical information; significant cartographic elements (projection, scale, perspective, color, text, etc.); and intentional deception.</p>
+                <p>This is a collection of “persuasive” cartography: maps primarily intended to send a message, to influence the opinion of the viewer, rather than to communicate “objective” geographic information.</p>
+                <p>Maps in the collection address a wide range of messages about imperialism, war and peace, religion, politics, slavery, temperance, woman’s suffrage, poverty, advertising and many others.</p> 
+                <p>The collection also reflects a variety of persuasive techniques, including allegorical, satirical and pictorial mapping; inclusion (or exclusion) of critical information; unusual projections, graphics and text; and intentional deception.</p>
 
                 <p>Learn more about <a href="#">persuasive cartography and the collection</a></p>
 
