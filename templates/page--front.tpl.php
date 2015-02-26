@@ -128,7 +128,7 @@ $theme_path = base_path() . 'sites/all/themes/persuasivemaps_bootstrap';
                             <li><a href="/thematic-notes">Thematic Notes</a></li>
                         </ul>-->
 
-                        <?php print render($page['navigation']); ?>
+                        <?php print render($page['mainnav']); ?>
                     </div><!-- /.navbar-collapse -->
                 </div><!-- /.container-fluid -->
             </nav>
