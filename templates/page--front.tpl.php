@@ -111,7 +111,7 @@ $theme_path = base_path() . 'sites/all/themes/persuasivemaps_bootstrap';
 
                     <!-- Collect the nav links, forms, and other content for toggling -->
                     <div class="collapse navbar-collapse" id="bs-example-navbar-collapse-1">
-                        <ul class="nav navbar-nav">
+                        <!--<ul class="nav navbar-nav">
                             <li class="active"><a href="/">Home</a></li>
                             <li><a href="/about">About</a></li>
   
@@ -123,14 +123,12 @@ $theme_path = base_path() . 'sites/all/themes/persuasivemaps_bootstrap';
                                     <li><a href="#">Advance Search</a></li>
                                 </ul>
                             </li>
-                            
-
 
                             <li><a href="/resources">Resources</a></li>
                             <li><a href="/thematic-notes">Thematic Notes</a></li>
-                        </ul>
+                        </ul>-->
 
-
+                        <?php print render($page['navigation']); ?>
                     </div><!-- /.navbar-collapse -->
                 </div><!-- /.container-fluid -->
             </nav>
@@ -154,6 +152,8 @@ $theme_path = base_path() . 'sites/all/themes/persuasivemaps_bootstrap';
       <div><img src="<?php print $theme_path; ?>/images/map-3.jpg"><div class="legend">Map Legend</div></div>
       <div><img src="<?php print $theme_path; ?>/images/map-4.jpg"><div class="legend">Map Legend</div></div>
       -->
+
+
     <?php print render($page['carousel']); ?>
 </div>
 
