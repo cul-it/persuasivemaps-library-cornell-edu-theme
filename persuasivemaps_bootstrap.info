@@ -9,7 +9,6 @@ base theme = bootstrap
 ;;;;;;;;;;;;;;;;;;;;;
 
 regions[navigation]     = 'Navigation'
-regions[mainnav]     	= 'Mainnavigation'
 regions[header]         = 'Top Bar'
 regions[carousel]       = 'Carousel'
 regions[highlighted]    = 'Highlighted'
