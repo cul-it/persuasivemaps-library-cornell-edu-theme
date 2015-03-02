@@ -5326,7 +5326,7 @@ footer {
 .owl-demo .owl-item div {
   padding: 0; }
 
-.owl-demo .owl-item img {
+.owl-demo .owl-item a img {
   display: block;
   width: 100%;
   margin: 0 auto;
