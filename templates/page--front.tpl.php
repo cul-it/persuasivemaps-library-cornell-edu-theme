@@ -146,7 +146,7 @@ $theme_path = base_path() . 'sites/all/themes/persuasivemaps_bootstrap';
 
 
 
-<div id="owl-demo" class="owl-carousel">
+<div id="owl-demo" >
 
     <!--<div>
         <a href=""><img src="<?php print $theme_path; ?>/images/map-1.jpg"></a>
