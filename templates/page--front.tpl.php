@@ -79,7 +79,7 @@ $theme_path = base_path() . 'sites/all/themes/persuasivemaps_bootstrap';
 ?>
 
 
-<!-- HEADER -->
+<!-- HEADER -- -->
         <header>
 
             <!-- navbar-static-top MAKES the dropdown to display on top -->
