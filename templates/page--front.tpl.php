@@ -215,5 +215,5 @@ $theme_path = base_path() . 'sites/all/themes/persuasivemaps_bootstrap';
 
 
 
-    <script type="text/javascript" src="<?php print $theme_path; ?>/js/owl.carousel/owl-carousel/owl.carousel.js"></script>
+    <script type="text/javascript" src="<?php print $theme_path; ?>/js/owl.carousel/owl-carousel/owl.carousel.min.js"></script>
      
