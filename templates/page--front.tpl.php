@@ -165,6 +165,11 @@ $theme_path = base_path() . 'sites/all/themes/persuasivemaps_bootstrap';
     <div>
         <img src="<?php print $theme_path; ?>/images/map-4.jpg">
         <div class="legend">Map Legend</div>
+    </div>
+
+    <div>
+        <img src="<?php print $theme_path; ?>/images/map-4.jpg">
+        <div class="legend">Map Legend</div>
     </div>-->
       
 
