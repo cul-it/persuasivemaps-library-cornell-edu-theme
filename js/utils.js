@@ -1,5 +1,5 @@
-$(document).ready(function() {
-  $("#owl-demo").owlCarousel({
+$(document).ready(function($) {
+  $('#owl-demo').owlCarousel({
       autoPlay : false,
       stopOnHover : true,
       pagination: false,
@@ -11,7 +11,7 @@ $(document).ready(function() {
       navigation:true,
       navigationText : ["<",">"]
   });
-});
+})
 
     
 
