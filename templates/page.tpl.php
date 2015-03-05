@@ -132,13 +132,16 @@ $theme_path = base_path() . 'sites/all/themes/persuasivemaps_bootstrap';
                 <?php print render($page['content']); ?>
 
             </div>
+            $sidebar  = render($page['sidebar_first']);
+            <?php if ($sidebar): ?>
 
-            <div class="col-xs-12 col-sm-12 col-md-12 col-lg-3 side-bar">
-                <ul>
-                    <li><a href="#">Suggestive Cartography</a></li>
-                    <li><a href="#">History of the Collection</a></li>
-                </ul>   
-            </div> 
+                <div class="col-xs-12 col-sm-12 col-md-12 col-lg-3 side-bar">
+                    
+                    <?php print render($page['sidebar']); ?>
+
+                </div> 
+
+            <?php endif; ?>
 
         </section>
 
