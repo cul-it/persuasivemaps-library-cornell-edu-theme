@@ -28,13 +28,14 @@ $theme_path = base_path() . 'sites/all/themes/persuasivemaps_bootstrap';
         <?php print $styles; ?>
 
         <!-- Optional theme -->
-        <link href="<?php print $theme_path; ?>/css/styles.css" rel="stylesheet" media="screen">
-
-        <!-- Owl Carousel Assets -->
+         <!-- Owl Carousel Assets -->
         <link href="<?php print $theme_path; ?>/js/owl.carousel/owl-carousel/owl.carousel.css" rel="stylesheet">
         <link href="<?php print $theme_path; ?>/js/owl.carousel/owl-carousel/owl.theme.css" rel="stylesheet">
         <link href="<?php print $theme_path; ?>/js/owl.carousel/owl-carousel/owl.transitions.css" rel="stylesheet">
   
+        <link href="<?php print $theme_path; ?>/css/styles.css" rel="stylesheet" media="screen">
+
+       
 
         <!-- HTML5 shim and Respond.js IE8 support of HTML5 elements and media queries -->
         <!--[if lt IE 9]>
