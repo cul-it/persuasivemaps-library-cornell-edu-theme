@@ -46,8 +46,11 @@ $theme_path = base_path() . 'sites/all/themes/persuasivemaps_bootstrap';
         <![endif]-->
 
         <?php print $scripts; ?>
-
-
+<script>
+   $(document).ready(function($) {
+      $("#owl-demo").owlCarousel();
+    });
+</script>
     </head>
 
     <body class="homepage <?php print $classes; ?>" <?php print $attributes;?>>
