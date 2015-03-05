@@ -49,7 +49,7 @@ $theme_path = base_path() . 'sites/all/themes/persuasivemaps_bootstrap';
 <script>
    $(document).ready(function() {
       $('#owl-demo').owlCarousel();
-    });
+    })
 </script>
     </head>
 
