@@ -137,7 +137,7 @@ $theme_path = base_path() . 'sites/all/themes/persuasivemaps_bootstrap';
 
                 <div class="col-xs-12 col-sm-12 col-md-12 col-lg-3 side-bar">
                     
-                    <?php print render($page['sidebar']); ?>
+                    <?php print render($page['sidebar_first']); ?>
 
                 </div> 
 
