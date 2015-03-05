@@ -27,7 +27,7 @@
  * @ingroup views_templates
  */
 ?>
-<div class="owl-carousel">
+<div id="owl-demo" class="owl-carousel">
   
 
   <?php if ($rows): ?>
