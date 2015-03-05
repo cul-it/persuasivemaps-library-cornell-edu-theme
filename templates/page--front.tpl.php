@@ -147,10 +147,9 @@ $theme_path = base_path() . 'sites/all/themes/persuasivemaps_bootstrap';
 
 
 <div id="owl-demo" class="owl-carousel">
-              <div><img src="../images/map-1.jpg"><div class="legend">Short Title / Date</div></div>
-              <div><a href=""><img src="../images/map-2.jpg"><div class="legend">Map Legend</a></div></div>
-              <div><img src="../images/map-3.jpg"><div class="legend">Map Legend</div></div>
-              <div><img src="../images/map-4.jpg"><div class="legend">Map Legend</div></div>
+              <div><img src="/files/map-1.jpg"><div class="legend">Short Title / Date</div></div>
+              <div><a href=""><img src="/files/map-2.jpg"><div class="legend">Map Legend</a></div></div>
+              <div><img src="/files/map-3.jpg"><div class="legend">Map Legend</div></div>
 
         </div>
 

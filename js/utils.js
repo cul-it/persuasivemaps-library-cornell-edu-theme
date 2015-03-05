@@ -1,4 +1,4 @@
-/*$(document).ready(function() {
+$(document).ready(function() {
   $("#owl-demo").owlCarousel({
       autoPlay : false,
       stopOnHover : true,
@@ -14,7 +14,7 @@
 });
 
     
-*/
+
 
 
 
