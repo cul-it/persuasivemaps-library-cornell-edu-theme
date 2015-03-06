@@ -374,8 +374,8 @@ footer {
         padding-top: 20px;
 
         .well {
-            
-            background-color: none;
+
+            background-color: transparent;
             border: none;
             border-radius: 0;
             box-shadow: none;
@@ -400,11 +400,12 @@ footer {
 
                 a:hover {
                     text-decoration: none;  
+                    background-color: transparent;
                 }
             }
 
             li::after {
-                content: ">";
+                //content: ">";
                 font-family: 'Quicksand';
                 padding-left: 3px;
                 font-size: 14px;

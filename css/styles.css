@@ -209,7 +209,7 @@ footer {
     border-top: 1px solid #6e6f69;
     padding-top: 20px; }
     .inteior-content .side-bar .well {
-      background-color: none;
+      background-color: transparent;
       border: none;
       border-radius: 0;
       box-shadow: none;
@@ -224,9 +224,9 @@ footer {
           color: #fff;
           text-decoration: underline; }
         .inteior-content .side-bar ul li a:hover {
-          text-decoration: none; }
+          text-decoration: none;
+          background-color: transparent; }
       .inteior-content .side-bar ul li::after {
-        content: ">";
         font-family: 'Quicksand';
         padding-left: 3px;
         font-size: 14px; }
