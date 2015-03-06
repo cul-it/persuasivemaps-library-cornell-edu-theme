@@ -5313,7 +5313,8 @@ footer {
   float: right;
   margin-right: 20px;
   width: 100%;
-  border-top: 1px solid #6e6f69; }
+  border-top: 1px solid #6e6f69;
+  padding-bottom: 30px; }
   footer ul {
     list-style-type: none; }
     footer ul li {
