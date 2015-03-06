@@ -5312,8 +5312,11 @@ footer {
   margin-top: 20px;
   float: right;
   margin-right: 20px; }
-  footer li {
-    float: left; }
+  footer ul {
+    list-style-type: none; }
+    footer ul li {
+      float: left;
+      padding-right: 10px; }
   footer a {
     color: #fff;
     text-decoration: underline;

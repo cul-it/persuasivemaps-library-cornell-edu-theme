@@ -231,9 +231,18 @@ footer {
     float: right;
     margin-right: 20px;
 
-    li {
-        float: left;
+    ul {
+
+        list-style-type: none;
+
+        li {
+
+            float: left;
+            padding-right: 10px;
+        }
     }
+
+    
 
     a {
         color: #fff;
