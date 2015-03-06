@@ -117,7 +117,8 @@ footer {
   margin-right: 20px;
   margin: 0 auto;
   padding-top: 20px;
-  border-bottom: 1px solid #6e6f69; }
+  border-top: 1px solid #6e6f69;
+  text-align: center; }
   footer a {
     color: #fff;
     text-decoration: underline;
