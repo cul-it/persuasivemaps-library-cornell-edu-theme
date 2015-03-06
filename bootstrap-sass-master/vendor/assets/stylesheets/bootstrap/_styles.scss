@@ -864,8 +864,16 @@ _\ \ | | | | | (_| | | |  / / | (_| | |_) | |  __/ |_\__ \
 
     .inteior-content .side-bar {
 
-        width: 450px;
+        width: 360px;
     }
 }
 
 
+@media (min-width: 1800px) { 
+
+
+    .inteior-content .side-bar {
+
+        width: 450px;
+    }
+}
