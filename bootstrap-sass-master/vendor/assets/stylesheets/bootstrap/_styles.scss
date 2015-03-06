@@ -241,11 +241,14 @@ footer {
 
     ul {
 
-        margin: 0 auto;
+        position: relative;
+        left: 50%;
 
         li {
+        
+            float: left;
+            position:relative;
 
-            
         }
     }
 
