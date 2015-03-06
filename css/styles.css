@@ -5391,7 +5391,7 @@ footer {
     font-size: 30px;
     margin-top: 20px; }
   .inteior-content p {
-    font-size: 16px; }
+    font-size: 20px; }
     .inteior-content p a {
       color: #fff;
       text-decoration: underline; }
@@ -5629,4 +5629,7 @@ _\ \ | | | | | (_| | | |  / / | (_| | |_) | |  __/ |_\__ \
     float: left; }
     header .navbar .navbar-header h2 {
       width: 500px;
-      display: inline-block; } }
+      display: inline-block; }
+
+  .inteior-content .side-bar {
+    width: 350px; } }
