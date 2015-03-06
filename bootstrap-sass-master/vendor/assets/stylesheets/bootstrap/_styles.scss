@@ -381,18 +381,21 @@ footer {
                 .nav,
                 .menu {
 
-                    
+                    li {
 
-                    a {
-                        color: #fff;
-                        text-decoration: underline;
-                        font-size: 20px;
-                    }
+                        list-style: disc;
 
-                    a:hover {
+                        a {
+                            color: #fff;
+                            text-decoration: underline;
+                            font-size: 20px;
+                        }
 
-                       text-decoration: none; 
-                       background-color: transparent;
+                        a:hover {
+
+                           text-decoration: none; 
+                           background-color: transparent;
+                        }
                     }
                 }
             }

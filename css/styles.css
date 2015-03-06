@@ -5408,15 +5408,18 @@ footer {
       .inteior-content .side-bar .well .well {
         background-color: transparent;
         border: none; }
-        .inteior-content .side-bar .well .well .nav a,
-        .inteior-content .side-bar .well .well .menu a {
-          color: #fff;
-          text-decoration: underline;
-          font-size: 20px; }
-        .inteior-content .side-bar .well .well .nav a:hover,
-        .inteior-content .side-bar .well .well .menu a:hover {
-          text-decoration: none;
-          background-color: transparent; }
+        .inteior-content .side-bar .well .well .nav li,
+        .inteior-content .side-bar .well .well .menu li {
+          list-style: disc; }
+          .inteior-content .side-bar .well .well .nav li a,
+          .inteior-content .side-bar .well .well .menu li a {
+            color: #fff;
+            text-decoration: underline;
+            font-size: 20px; }
+          .inteior-content .side-bar .well .well .nav li a:hover,
+          .inteior-content .side-bar .well .well .menu li a:hover {
+            text-decoration: none;
+            background-color: transparent; }
 
 /*later  
 
