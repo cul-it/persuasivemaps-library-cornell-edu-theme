@@ -115,8 +115,9 @@ footer {
   padding-top: 20px;
   margin-top: 20px;
   margin-right: 20px;
-  padding-top: 40px;
-  border-top: 1px solid #6e6f69; }
+  padding-top: 20px;
+  border-top: 1px solid #6e6f69;
+  padding-bottom: 20px; }
   footer ul li {
     float: left;
     padding-right: 10px; }
