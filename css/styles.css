@@ -5625,6 +5625,9 @@ _\ \ | | | | | (_| | | |  / / | (_| | |_) | |  __/ |_\__ \
   header .navbar #bs-example-navbar-collapse-1 {
     float: right;
     padding-top: 15px; } }
+@media (min-width: 1440px) {
+  .inteior-content .side-bar {
+    width: 360px; } }
 @media (min-width: 1700px) {
   header .navbar .navbar-header {
     float: left; }
@@ -5633,4 +5636,4 @@ _\ \ | | | | | (_| | | |  / / | (_| | |_) | |  __/ |_\__ \
       display: inline-block; }
 
   .inteior-content .side-bar {
-    width: 350px; } }
+    width: 450px; } }
