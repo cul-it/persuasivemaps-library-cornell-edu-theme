@@ -22,6 +22,7 @@ $medium-dark-blue: #637793;
     background-color: $dark-blue;
 }
 
+
 .drak-gray {
     background-color: $dark-gray;
 }
@@ -34,11 +35,9 @@ $medium-dark-blue: #637793;
     //margin-right: -15px;
 }
 
-
 ul {
     list-style-type: none !important;
 }
-
 
 body {
 
@@ -299,6 +298,13 @@ footer {
     padding: 0;
     margin: 0;  
     font-family: 'Quicksand';
+}
+.legend {
+
+    a {
+
+        color: #fff;
+    }
 }
 
 // SECONDARY PAGES
