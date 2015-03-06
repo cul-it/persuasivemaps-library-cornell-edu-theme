@@ -5398,9 +5398,11 @@ footer {
     border-top: 1px solid #6e6f69;
     padding-top: 20px; }
     .inteior-content .side-bar .well {
-      background-color: none; }
+      background-color: transparent;
+      border: none; }
       .inteior-content .side-bar .well .well {
-        background-color: none; }
+        background-color: transparent;
+        border: none; }
         .inteior-content .side-bar .well .well .nav {
           list-style-type: disc !important; }
     .inteior-content .side-bar ul {

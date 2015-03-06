@@ -357,15 +357,17 @@ footer {
 
         .well {
 
-            background-color: none;
+            background-color: transparent;
+            border: none;
 
             .well {
 
-                background-color: none;
+                background-color: transparent;
                 //border-bottom: 1px solid #6e6f69;
+                border: none;
 
                 .nav {
-                    
+
                     list-style-type: disc !important;
                 }
             }
