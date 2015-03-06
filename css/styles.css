@@ -115,16 +115,9 @@ footer {
   padding-top: 20px;
   margin-top: 20px;
   margin-right: 20px;
-  margin: 0 auto;
   padding-top: 40px;
   border-top: 1px solid #6e6f69;
   text-align: center; }
-  footer ul {
-    position: relative;
-    left: 50%; }
-    footer ul li {
-      float: left;
-      position: relative; }
   footer a {
     color: #fff;
     text-decoration: underline;
