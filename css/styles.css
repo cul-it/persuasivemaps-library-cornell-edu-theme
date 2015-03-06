@@ -207,7 +207,8 @@ footer {
   .inteior-content .side-bar {
     margin-top: 20px;
     border-top: 1px solid #6e6f69;
-    padding-top: 20px; }
+    padding-top: 20px;
+    background-color: #858683; }
     .inteior-content .side-bar .well {
       background-color: transparent;
       border: none;
