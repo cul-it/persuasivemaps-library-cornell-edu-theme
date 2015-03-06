@@ -171,7 +171,11 @@ footer {
   font-family: 'Quicksand'; }
 
 .legend a {
-  color: #fff; }
+  color: #fff;
+  text-decoration: underline; }
+.legend a:hover {
+  color: #fff;
+  text-decoration: none; }
 
 .inteior-content {
   min-height: 600px;
