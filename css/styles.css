@@ -118,9 +118,11 @@ footer {
   padding-top: 20px;
   border-top: 1px solid #6e6f69;
   padding-bottom: 20px; }
-  footer ul li {
-    float: left;
-    padding-right: 10px; }
+  footer ul {
+    float: right; }
+    footer ul li {
+      float: left;
+      padding-right: 10px; }
   footer a {
     color: #fff;
     text-decoration: underline;
