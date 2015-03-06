@@ -5410,7 +5410,8 @@ footer {
         border: none; }
         .inteior-content .side-bar .well .well .nav li,
         .inteior-content .side-bar .well .well .menu li {
-          list-style: disc; }
+          list-style: disc;
+          border: 1px solid red; }
           .inteior-content .side-bar .well .well .nav li a,
           .inteior-content .side-bar .well .well .menu li a {
             color: #fff;
