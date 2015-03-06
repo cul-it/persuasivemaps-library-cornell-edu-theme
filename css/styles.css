@@ -5455,6 +5455,12 @@ footer {
   transition: border-color 0.15s ease-in-out 0s, box-shadow 0.15s ease-in-out 0s;
   width: 100%; }
 
+.legend a {
+  color: #fff;
+  text-decoration: underline; }
+.legend a:hover {
+  text-decoration: none; }
+
 /* Extra small devices (phones, up to 480px) */
 /* No media query since this is the default in Bootstrap */
 /*

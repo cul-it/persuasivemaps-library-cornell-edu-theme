@@ -457,6 +457,18 @@ footer {
     width: 100%;
 }
 
+.legend {
+
+    a {
+        color: #fff;
+        text-decoration: underline;
+    }
+
+    a:hover {
+        text-decoration: none;
+    }
+}
+
 /* Extra small devices (phones, up to 480px) */
 /* No media query since this is the default in Bootstrap */
 
