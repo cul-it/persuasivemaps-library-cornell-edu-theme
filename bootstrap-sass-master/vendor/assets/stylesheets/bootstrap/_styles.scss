@@ -228,8 +228,12 @@ footer {
     //border-top: 1px solid #6e6f69;
     padding-top: 20px;
     margin-top: 20px;
-    float: left;
+    float: right;
     margin-right: 20px;
+
+    li {
+        float: left;
+    }
 
     a {
         color: #fff;

@@ -5310,8 +5310,10 @@ footer {
   padding-left: 20px;
   padding-top: 20px;
   margin-top: 20px;
-  float: left;
+  float: right;
   margin-right: 20px; }
+  footer li {
+    float: left; }
   footer a {
     color: #fff;
     text-decoration: underline;
