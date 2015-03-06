@@ -5313,15 +5313,8 @@ footer {
   padding-left: 20px;
   padding-top: 20px;
   margin-top: 20px;
-  margin-right: 20px;
-  padding-top: 20px;
-  border-top: 1px solid #6e6f69;
-  padding-bottom: 20px; }
-  footer ul {
-    float: right; }
-    footer ul li {
-      float: left;
-      padding-right: 10px; }
+  float: left;
+  margin-right: 20px; }
   footer a {
     color: #fff;
     text-decoration: underline;
@@ -5376,13 +5369,6 @@ footer {
   margin: 0;
   font-family: 'Quicksand'; }
 
-.legend a {
-  color: #fff;
-  text-decoration: underline; }
-.legend a:hover {
-  color: #fff;
-  text-decoration: none; }
-
 .inteior-content {
   min-height: 600px;
   color: #fff; }
@@ -5411,29 +5397,15 @@ footer {
     margin-top: 20px;
     border-top: 1px solid #6e6f69;
     padding-top: 20px; }
-    .inteior-content .side-bar .well {
-      background-color: transparent;
-      border: none;
-      border-radius: 0;
-      box-shadow: none;
-      margin-bottom: 20px;
-      min-height: 20px;
-      padding: 19px; }
     .inteior-content .side-bar ul {
       list-style-type: disc !important; }
       .inteior-content .side-bar ul li {
         font-size: 16px; }
         .inteior-content .side-bar ul li a {
           color: #fff;
-          text-decoration: underline;
-          padding: 0; }
+          text-decoration: underline; }
         .inteior-content .side-bar ul li a:hover {
-          text-decoration: none;
-          background-color: transparent; }
-      .inteior-content .side-bar ul li::after {
-        font-family: 'Quicksand';
-        padding-left: 3px;
-        font-size: 14px; }
+          text-decoration: none; }
 
 /*later  
 
@@ -5550,7 +5522,7 @@ _\ \ | | | | | (_| | | |  / / | (_| | |_) | |  __/ |_\__ \
     border-top: 1px solid #6e6f69;
     padding-top: 20px;
     margin-left: 200px;
-    width: 500px; }
+    width: 300px; }
 
     /*later  
 
@@ -5595,7 +5567,7 @@ _\ \ | | | | | (_| | | |  / / | (_| | |_) | |  __/ |_\__ \
     padding-top: 0;
     margin-left: 200px;
     padding-left: 0;
-    width: 500px; }
+    width: 100%; }
     .inteior-content .side-bar ul li {
       font-size: 20px; } }
 /*
@@ -5633,16 +5605,6 @@ _\ \ | | | | | (_| | | |  / / | (_| | |_) | |  __/ |_\__ \
   header .navbar #bs-example-navbar-collapse-1 {
     float: right;
     padding-top: 15px; } }
-@media (min-width: 1440px) {
-  .inteior-content .side-bar {
-    border: medium none;
-    margin-left: 0;
-    margin-top: 150px;
-    padding-left: 30px;
-    padding-top: 0;
-    width: 500px; }
-    .inteior-content .side-bar well {
-      background-color: #858683; } }
 @media (min-width: 1700px) {
   header .navbar .navbar-header {
     float: left; }
