@@ -5216,7 +5216,7 @@ button.close {
   margin: 0; }
 
 ul {
-  list-style-type: none !important; }
+  list-style-type: none; }
 
 body {
   background-color: #3e464f;
@@ -5405,6 +5405,8 @@ footer {
         border: none; }
         .inteior-content .side-bar .well .well .nav {
           list-style-type: disc !important; }
+          .inteior-content .side-bar .well .well .nav a:hover {
+            text-decoration: none; }
     .inteior-content .side-bar ul {
       list-style-type: disc !important; }
       .inteior-content .side-bar ul li {
