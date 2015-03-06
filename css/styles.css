@@ -5441,10 +5441,6 @@ footer {
   font-weight: normal; }
 
 #edit-submitted-email-address {
-  border-radius: 4px;
-  box-shadow: 0 1px 1px rgba(0, 0, 0, 0.075) inset; }
-
-.from-email {
   background-color: white;
   background-image: none;
   border: 1px solid #cccccc;
