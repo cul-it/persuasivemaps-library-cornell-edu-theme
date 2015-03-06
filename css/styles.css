@@ -5419,7 +5419,8 @@ ul li.leaf {
   list-style-type: disc !important; }
 
 .nav {
-  list-style: outside none none; }
+  list-style: outside none none;
+  list-style-type: disc !important; }
 
 /*later  
 
