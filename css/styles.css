@@ -222,7 +222,8 @@ footer {
         font-size: 16px; }
         .inteior-content .side-bar ul li a {
           color: #fff;
-          text-decoration: underline; }
+          text-decoration: underline;
+          padding: 0; }
         .inteior-content .side-bar ul li a:hover {
           text-decoration: none;
           background-color: transparent; }
