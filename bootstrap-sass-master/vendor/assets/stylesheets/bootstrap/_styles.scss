@@ -369,12 +369,12 @@ footer {
                 .nav,
                 .menu {
 
-                    list-style-type: disc !important;
+                    
 
                     a {
                         color: #fff;
                         text-decoration: underline;
-                        font-size: 16px;
+                        font-size: 20px;
                     }
 
                     a:hover {
@@ -389,6 +389,12 @@ footer {
     }
 
 
+}
+ul li.collapsed, 
+ul li.expanded, 
+ul li.leaf {
+
+    list-style-type: disc !important;
 }
 
 /*later  

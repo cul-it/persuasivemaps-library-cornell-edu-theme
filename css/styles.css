@@ -5403,18 +5403,20 @@ footer {
       .inteior-content .side-bar .well .well {
         background-color: transparent;
         border: none; }
-        .inteior-content .side-bar .well .well .nav,
-        .inteior-content .side-bar .well .well .menu {
-          list-style-type: disc !important; }
-          .inteior-content .side-bar .well .well .nav a,
-          .inteior-content .side-bar .well .well .menu a {
-            color: #fff;
-            text-decoration: underline;
-            font-size: 16px; }
-          .inteior-content .side-bar .well .well .nav a:hover,
-          .inteior-content .side-bar .well .well .menu a:hover {
-            text-decoration: none;
-            background-color: transparent; }
+        .inteior-content .side-bar .well .well .nav a,
+        .inteior-content .side-bar .well .well .menu a {
+          color: #fff;
+          text-decoration: underline;
+          font-size: 20px; }
+        .inteior-content .side-bar .well .well .nav a:hover,
+        .inteior-content .side-bar .well .well .menu a:hover {
+          text-decoration: none;
+          background-color: transparent; }
+
+ul li.collapsed,
+ul li.expanded,
+ul li.leaf {
+  list-style-type: disc !important; }
 
 /*later  
 
