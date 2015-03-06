@@ -64,11 +64,6 @@ $theme_path = base_path() . 'sites/all/themes/persuasivemaps_bootstrap';
     <!-- Utils -->
     <script type="text/javascript" src="<?php print $theme_path; ?>/js/utils.js"></script>
 
-
-
-
-    
-    
     </body>
 </html>
 
