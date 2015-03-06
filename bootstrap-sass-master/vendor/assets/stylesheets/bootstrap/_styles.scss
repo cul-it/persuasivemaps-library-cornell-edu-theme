@@ -373,6 +373,17 @@ footer {
         border-top: 1px solid #6e6f69;
         padding-top: 20px;
 
+        .well {
+            
+            background-color: none;
+            border: none;
+            border-radius: 0;
+            box-shadow: none;
+            margin-bottom: 20px;
+            min-height: 20px;
+            padding: 19px;
+        }
+
         ul {
 
 
