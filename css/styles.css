@@ -5312,6 +5312,7 @@ footer {
   margin-top: 20px;
   float: right;
   margin-right: 20px;
+  width: 100%;
   border-top: 1px solid #6e6f69; }
   footer ul {
     list-style-type: none; }
