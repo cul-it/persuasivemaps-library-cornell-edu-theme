@@ -366,37 +366,24 @@ footer {
                 border: none;
                 //border-bottom: 1px solid #6e6f69;
 
-                .nav {
+                .nav,
+                .menu {
 
                     list-style-type: disc !important;
+
+                    a {
+                        color: #fff;
+                        text-decoration: underline;
+                        font-size: 16px;
+                    }
 
                     a:hover {
 
                        text-decoration: none; 
+                       background-color: transparent;
                     }
                 }
             }
-        }
-
-        ul {
-
-
-            list-style-type: disc !important;
-
-
-            li {
-                font-size: 16px;
-
-                a {
-                    color: #fff;
-                    text-decoration: underline;
-                }
-
-                a:hover {
-                    text-decoration: none;  
-                }
-            }
-        
         }
 
     }
