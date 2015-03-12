@@ -5249,7 +5249,8 @@ header {
       margin: 0;
       padding: 0;
       padding-left: 10px;
-      vertical-align: middle; }
+      vertical-align: middle;
+      padding-top: 10px; }
       header .navbar .navbar-header h1 .cornell-logo {
         height: 35px;
         width: 34px;
@@ -5478,7 +5479,8 @@ _\ \ | | | | | (_| | | |  / / | (_| | |_) | |  __/ |_\__ \
     margin: 0;
     padding: 0;
     padding-left: 10px;
-    vertical-align: middle; }
+    vertical-align: middle;
+    padding-top: 0; }
     header .navbar .navbar-header h1 .cornell-logo {
       height: 52px;
       width: 49px;
