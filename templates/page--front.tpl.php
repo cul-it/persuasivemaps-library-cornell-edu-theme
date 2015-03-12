@@ -99,11 +99,11 @@ $theme_path = base_path() . 'sites/all/themes/persuasivemaps_bootstrap';
                         </button>
 
                          <h1>
-                             <a class="cornell-logo" href="#"></a>
+                             <a class="cornell-logo" href="http://www.cornell.edu"></a>
                         </h1>
                 
                         <h2>
-                            <a href="#">Cornell University Library</a> | <a href="#">Division of Rare & Manuscript Collections</a>
+                            <a href="https://www.library.cornell.edu/">Cornell University Library</a> | <a href="http://rmc.library.cornell.edu/">Division of Rare & Manuscript Collections</a>
                         </h2>
 
                   
@@ -142,41 +142,7 @@ $theme_path = base_path() . 'sites/all/themes/persuasivemaps_bootstrap';
 
             <!-- keep classes LIKE featured-maps AT THE END -->
             <div class="col-xs-12 col-sm-12 col-md-9 col-lg-9 featured-maps">
-
-
-
-
-
-    <!--<div>
-        <a href=""><img src="<?php print $theme_path; ?>/images/map-1.jpg"></a>
-        <div class="legend"><a href="">Short Title / Date</a></div>
-    </div>
-      
-    <div>
-        <img src="<?php print $theme_path; ?>/images/map-2.jpg">
-        <div class="legend">Map Legend</div>
-    </div>
-      
-    <div>
-        <img src="<?php print $theme_path; ?>/images/map-3.jpg">
-        <div class="legend">Map Legend</div>
-    </div>
-      
-    <div>
-        <img src="<?php print $theme_path; ?>/images/map-4.jpg">
-        <div class="legend">Map Legend</div>
-    </div>
-
-    <div>
-        <img src="<?php print $theme_path; ?>/images/map-4.jpg">
-        <div class="legend">Map Legend</div>
-    </div>-->
-      
-
-
-    <?php print render($page['carousel']); ?>
-
-                
+                 <?php print render($page['carousel']); ?>  
             </div>
 
             <div class="col-xs-12 col-sm-12 col-md-3 col-lg-3 home-intro">
