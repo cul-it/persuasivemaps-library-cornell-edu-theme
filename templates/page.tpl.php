@@ -97,12 +97,12 @@ $theme_path = base_path() . 'sites/all/themes/persuasivemaps_bootstrap';
                             <span class="icon-bar"></span>
                         </button>
 
-                         <h1>
-                             <a class="cornell-logo" href="#"></a>
+                          <h1>
+                             <a class="cornell-logo" href="http://www.cornell.edu"></a>
                         </h1>
                 
                         <h2>
-                            <a href="#">Cornell University Library</a> | <a href="#">Division of Rare & Manuscript Collections</a>
+                            <a href="https://www.library.cornell.edu/">Cornell University Library</a> | <a href="http://rmc.library.cornell.edu/">Division of Rare & Manuscript Collections</a>
                         </h2>
 
                   
