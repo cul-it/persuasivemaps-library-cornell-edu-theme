@@ -5617,7 +5617,7 @@ _\ \ | | | | | (_| | | |  / / | (_| | |_) | |  __/ |_\__ \
   header {
     height: 75px; }
     header .navbar #bs-example-navbar-collapse-1 .navbar-nav .dropdown li .dropdown-menu {
-      left: -90px; }
+      left: -90px !important; }
 
   header .navbar #bs-example-navbar-collapse-1 {
     float: right;
