@@ -5537,6 +5537,8 @@ _\ \ | | | | | (_| | | |  / / | (_| | |_) | |  __/ |_\__ \
         header .navbar #bs-example-navbar-collapse-1 .navbar-nav .dropdown li a {
           font-size: 20px;
           border-right: none; }
+        header .navbar #bs-example-navbar-collapse-1 .navbar-nav .dropdown li .dropdown-menu {
+          left: -90px; }
 
   .owl-carousel .owl-item div {
     padding: 30px; }
