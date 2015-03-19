@@ -733,7 +733,12 @@ _\ \ | | | | | (_| | | |  / / | (_| | |_) | |  __/ |_\__ \
  */
 
  @media (min-width: 954px) { 
-    
+
+    header {
+
+        height: 75px;
+    }
+
     header .navbar #bs-example-navbar-collapse-1 {
   
         float: right;
