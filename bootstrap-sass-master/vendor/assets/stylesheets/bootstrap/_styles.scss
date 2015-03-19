@@ -209,7 +209,7 @@ header {
 }
 
 footer {
-    padding-left: 20px;
+    padding-left: 0;
     //border-top: 1px solid $medium-dark-blue;
     //border-top: 1px solid #6e6f69;
     padding-top: 20px;
@@ -234,12 +234,12 @@ footer {
     
 
     a {
-        color: #fff;
+        color: #3e464f;
         text-decoration: underline;
         font-size: 17px;
 
         &:hover {
-            color: #fff;
+            color: #3e464f;
             text-decoration: none;
         }
     }
