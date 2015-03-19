@@ -747,13 +747,9 @@ _\ \ | | | | | (_| | | |  / / | (_| | |_) | |  __/ |_\__ \
 
                     .dropdown {
                  
-
-                        li {
-
-                            .dropdown-menu {
-                                
-                                left: -90px !important;
-                            }
+                        .dropdown-menu {
+                            
+                            left: -90px !important;
                         }
                     }
                 }
