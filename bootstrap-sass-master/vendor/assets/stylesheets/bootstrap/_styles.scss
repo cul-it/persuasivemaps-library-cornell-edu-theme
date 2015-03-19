@@ -606,11 +606,6 @@ _\ \ | | | | | (_| | | |  / / | (_| | |_) | |  __/ |_\__ \
                             border-right: none;
 
                         }
-
-                        .dropdown-menu {
-
-                            left: -90px;
-                        }
                     }
                 }
                 
@@ -742,6 +737,12 @@ _\ \ | | | | | (_| | | |  / / | (_| | |_) | |  __/ |_\__ \
     header {
 
         height: 75px;
+    }
+
+
+    .dropdown-menu {
+
+        left: -90px !important;
     }
 
     header .navbar #bs-example-navbar-collapse-1 {
