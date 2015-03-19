@@ -153,7 +153,7 @@ $theme_path = base_path() . 'sites/all/themes/persuasivemaps_bootstrap';
                 <p>Maps in the collection address a wide range of messages about imperialism, war and peace, religion, politics, slavery, temperance, woman’s suffrage, poverty, advertising and many others.</p> 
                 <p>The collection also reflects a variety of persuasive techniques, including allegorical, satirical and pictorial mapping; inclusion (or exclusion) of critical information; unusual projections, graphics and text; and intentional deception.</p>
 
-                <p>Learn more about <a href="/content/about-persuasive-cartography">persuasive cartography and the collection</a></p>
+                <p>Learn more about <a href="/about-persuasive-cartography">persuasive cartography</a> and <a href="/about">the collection</a></p>
 
                 <!-- Dropdown Browse Collections -->
 
