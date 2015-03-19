@@ -5517,8 +5517,8 @@ _\ \ | | | | | (_| | | |  / / | (_| | |_) | |  __/ |_\__ \
       header .navbar .navbar-header {
         width: 580px; }
       header .navbar #bs-example-navbar-collapse-1 {
-        padding-top: 12px;
-        float: right; }
+        padding-top: 0;
+        float: left; }
         header .navbar #bs-example-navbar-collapse-1 .navbar-nav li {
           padding-top: 10px; }
           header .navbar #bs-example-navbar-collapse-1 .navbar-nav li a {
@@ -5636,7 +5636,11 @@ _\ \ | | | | | (_| | | |  / / | (_| | |_) | |  __/ |_\__ \
     padding-left: 0;
     width: 400px; }
     .inteior-content .side-bar ul li {
-      font-size: 20px; } }
+      font-size: 20px; }
+
+  header .navbar #bs-example-navbar-collapse-1 {
+    float: right;
+    padding-top: 15px; } }
 /*
    __                           ___          _    _              
   / /  __ _ _ __ __ _  ___     /   \___  ___| | _| |_ ___  _ __  
