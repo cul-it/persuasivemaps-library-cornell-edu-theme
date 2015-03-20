@@ -35,15 +35,6 @@ $medium-dark-blue: #637793;
 }
 
 
-.glyphicon.glyphicon-chevron-down.caret-blue {
-    
-    color: $dark-blue !important;
-    font-size: 16px !important;
-    padding-left: 2px !important;
-}
-
-
-
 body {
 
     background-color: $dark-blue;
@@ -204,13 +195,6 @@ header {
             border: none;
             font-size: 20px;
             padding: 10px;
-
-            span {
-
-                color: #fff !important;
-                font-size: 16px !important;
-                padding-left: 2px !important;
-            }  
         }
 
     }
