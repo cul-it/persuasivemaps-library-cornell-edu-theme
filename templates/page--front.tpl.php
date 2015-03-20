@@ -147,7 +147,7 @@ $theme_path = base_path() . 'sites/all/themes/persuasivemaps_bootstrap';
 
             <div class="col-xs-12 col-sm-12 col-md-3 col-lg-3 home-intro">
 
-                <h3>PERSUASIVE CARTOGRAPHY<span>The P.J. Mode Collection</span></h3>
+                <h3>PERSUASIVE CARTOGRAPHY<span>The PJ Mode Collection</span></h3>
 
                 <p>This is a collection of “persuasive” cartography: maps primarily intended to send a message, to influence the opinion of the viewer, rather than to communicate “objective” geographic information.</p>
                 <p>Maps in the collection address a wide range of messages about imperialism, war and peace, religion, politics, slavery, temperance, woman’s suffrage, poverty, advertising and many others.</p> 
