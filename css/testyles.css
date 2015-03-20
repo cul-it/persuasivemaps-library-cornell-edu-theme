@@ -16,6 +16,9 @@
 .row {
   margin: 0; }
 
+.glyphicon {
+  font-size: 16px !important; }
+
 body {
   background-color: #3e464f;
   background-color: #51534a;
@@ -106,8 +109,6 @@ header {
       border: none;
       font-size: 20px;
       padding: 10px; }
-      .home-content .home-intro .browse-collection .glyphicon {
-        font-size: 16px !important; }
 
 footer {
   padding-left: 20;

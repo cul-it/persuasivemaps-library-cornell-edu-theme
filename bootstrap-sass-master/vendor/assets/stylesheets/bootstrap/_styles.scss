@@ -35,6 +35,11 @@ $medium-dark-blue: #637793;
 }
 
 
+.glyphicon {
+
+    font-size: 16px !important;
+}
+
 body {
 
     background-color: $dark-blue;
@@ -196,10 +201,6 @@ header {
             font-size: 20px;
             padding: 10px;
 
-            .glyphicon {
-
-                font-size: 16px !important;
-            }
         }
 
     }
