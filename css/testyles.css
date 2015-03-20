@@ -106,6 +106,8 @@ header {
       border: none;
       font-size: 20px;
       padding: 10px; }
+      .home-content .home-intro .browse-collection .glyphicon {
+        font-size: 16px !important; }
 
 footer {
   padding-left: 20;
