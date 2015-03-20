@@ -34,10 +34,6 @@ $medium-dark-blue: #637793;
     //margin-right: -15px;
 }
 
-.nav.navbar-nav li.dropdown a span.glyphicon {
-    font-size: 16px !important;
-}
-
 body {
 
     background-color: $dark-blue;
@@ -199,10 +195,18 @@ header {
             font-size: 20px;
             padding: 10px;
 
+            span.glyphicon {
+                font-size: 16px !important;
+            }
+
         }
 
     }
 
+}
+
+.nav.navbar-nav li.dropdown a span.glyphicon {
+    font-size: 16px !important;
 }
 
 footer {
