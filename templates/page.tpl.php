@@ -125,6 +125,12 @@ $theme_path = base_path() . 'sites/all/themes/persuasivemaps_bootstrap';
         <section class="inteior-content about row">
 
             <!-- keep classes LIKE featured-maps AT THE END -->
+            <?php
+                $sidebar  = render($page['sidebar_first']);
+            ?>
+
+            <?php if ($sidebar): ?>
+
             <div class="col-xs-12 col-sm-12 col-md-12 col-lg-9 interior-copy">
 
                 <h3>PERSUASIVE CARTOGRAPHY<span>The PJ Mode Collection</span></h3>
@@ -132,16 +138,25 @@ $theme_path = base_path() . 'sites/all/themes/persuasivemaps_bootstrap';
                 <?php print render($page['content']); ?>
 
             </div>
-            <?php
-            $sidebar  = render($page['sidebar_first']);
-            ?>
-            <?php if ($sidebar): ?>
+           
 
                 <div class="col-xs-12 col-sm-12 col-md-12 col-lg-3 side-bar">
                     
                     <?php print render($page['sidebar_first']); ?>
 
                 </div> 
+
+            <?php else : ?>
+
+
+            <div class="col-xs-12 col-sm-12 col-md-12 col-lg-12 interior-copy">
+
+                <h3>PERSUASIVE CARTOGRAPHY<span>The PJ Mode Collection</span></h3>
+
+                <?php print render($page['content']); ?>
+
+            </div>
+
 
             <?php endif; ?>
 
