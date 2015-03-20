@@ -159,7 +159,7 @@ $theme_path = base_path() . 'sites/all/themes/persuasivemaps_bootstrap';
 
                 <div class="dropdown">
                     <button class="btn btn-default dropdown-toggle browse-collection" type="button" id="dropdownMenu1" data-toggle="dropdown">
-                    BROWSE COLLECTION<span class="caret"></span>
+                    BROWSE COLLECTION<span class="glyphicon glyphicon-menu-down" aria-hidden="true"></span>
                     </button>
 
                     <ul class="dropdown-menu" role="menu" aria-labelledby="dropdownMenu1">
