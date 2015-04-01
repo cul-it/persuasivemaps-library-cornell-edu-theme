@@ -5408,6 +5408,14 @@ footer {
     margin-top: 20px;
     border-top: 1px solid #6e6f69;
     padding-top: 20px; }
+    .inteior-content .side-bar h2 a.active-trail {
+      color: #fff;
+      font-size: 20px;
+      text-decoration: underline; }
+    .inteior-content .side-bar h2 a.active-trail.active {
+      color: #fff;
+      font-size: 20px;
+      text-decoration: none; }
     .inteior-content .side-bar .well {
       background-color: transparent;
       border: none; }

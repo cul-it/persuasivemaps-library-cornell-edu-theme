@@ -355,6 +355,23 @@ footer {
         border-top: 1px solid #6e6f69;
         padding-top: 20px;
 
+        h2 {
+
+            a.active-trail {
+
+                color: #fff;
+                font-size: 20px;
+                text-decoration: underline;
+            }
+
+            a.active-trail.active {
+                
+                color: #fff;
+                font-size: 20px;
+                text-decoration: none;
+            }
+        }
+
         .well {
 
             background-color: transparent;
