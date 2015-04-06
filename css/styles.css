@@ -5475,9 +5475,6 @@ footer {
 .legend a:hover {
   text-decoration: none; }
 
-#webform-client-form-21 label[for=edit-submitted-comments] .form-required {
-  display: none; }
-
 /* Extra small devices (phones, up to 480px) */
 /* No media query since this is the default in Bootstrap */
 /*
