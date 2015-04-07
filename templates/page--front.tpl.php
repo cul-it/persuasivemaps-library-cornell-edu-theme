@@ -149,19 +149,6 @@ $theme_path = base_path() . 'sites/all/themes/persuasivemaps_bootstrap';
 
                 <?php print render($page['home_intro']); ?>
 
-                <!-- Dropdown Browse Collections -->
-
-                <div class="dropdown">
-                    <button class="btn btn-default dropdown-toggle browse-collection" type="button" id="dropdownMenu1" data-toggle="dropdown">
-                    BROWSE COLLECTION <span aria-hidden="true" class="glyphicon glyphicon-chevron-down"></span>
-                    </button>
-
-                    <ul class="dropdown-menu" role="menu" aria-labelledby="dropdownMenu1">
-                        <li><a href="#">All Persuasive Maps</a></li>
-                        <li><a href="#">By Subject (Recommended)</a></li>
-                        <li><a href="#">Advance Search</a></li>
-                    </ul>
-                </div>
             </div>
 
         </section>
