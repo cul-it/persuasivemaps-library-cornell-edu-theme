@@ -5411,13 +5411,11 @@ footer {
     .inteior-content .side-bar h2 a.active-trail {
       color: #fff;
       font-size: 20px;
-      text-decoration: underline;
-      padding-left: 15px; }
+      text-decoration: underline; }
     .inteior-content .side-bar h2 a.active-trail.active {
       color: #fff;
       font-size: 20px;
-      text-decoration: none;
-      padding-left: 15px; }
+      text-decoration: underline; }
     .inteior-content .side-bar .well {
       background-color: transparent;
       border: none; }
@@ -5476,6 +5474,10 @@ footer {
   text-decoration: underline; }
 .legend a:hover {
   text-decoration: none; }
+
+.block:first-child h2.block-title {
+  margin-left: 15px;
+  margin-top: 0; }
 
 /* Extra small devices (phones, up to 480px) */
 /* No media query since this is the default in Bootstrap */
@@ -5566,7 +5568,7 @@ _\ \ | | | | | (_| | | |  / / | (_| | |_) | |  __/ |_\__ \
 
   .owl-theme .owl-controls {
     position: absolute;
-    top: 40%;
+    top: 150%;
     width: 97%;
     padding: 0 !important;
     margin: 0 !important;
