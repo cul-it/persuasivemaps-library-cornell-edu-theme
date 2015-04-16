@@ -1,6 +1,6 @@
 $(document).ready(function($) {
   $('#owl-demo').owlCarousel({
-      autoPlay : false,
+      autoPlay : true,
       stopOnHover : true,
       pagination: false,
       paginationSpeed : 1000,
