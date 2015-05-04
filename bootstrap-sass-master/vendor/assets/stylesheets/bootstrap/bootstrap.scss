@@ -369,17 +369,15 @@ _\ \ | | | | | (_| | | |  / / | (_| | |_) | |  __/ |_\__ \
 
   .owl-carousel .owl-item img {
     display: block;
-    // width: 90%;
+    width: 90%;
     margin: 0 auto;
-    // height: auto;
+    height: auto;
     -webkit-border-radius: 3px;
     -moz-border-radius: 3px;
     border-radius: 3px;
-    width: 1000px;
-    height: auto;
   }
   #owl-demo {
-    height: 1100px !important;
+    height: 800px;
   }
 
   .owl-theme .owl-controls {
