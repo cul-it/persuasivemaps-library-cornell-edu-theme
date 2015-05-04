@@ -318,6 +318,9 @@ footer a:hover {
   margin-left: 15px;
   margin-top: 0; }
 
+#owl-demo {
+  height: 400px; }
+
 /* Extra small devices (phones, up to 480px) */
 /* No media query since this is the default in Bootstrap */
 /*
@@ -352,7 +355,10 @@ _\ \ | | | | | (_| | | |  / / | (_| | |_) | |  __/ |_\__ \
     width: 65%;
     padding-left: 10px;
     font-size: 16px;
-    line-height: 20px; } }
+    line-height: 20px; }
+
+  #owl-demo {
+    height: 600px; } }
 /*
  _____      _     _      _       
 /__   \__ _| |__ | | ___| |_ ___ 
