@@ -365,9 +365,11 @@ _\ \ | | | | | (_| | | |  / / | (_| | |_) | |  __/ |_\__ \
     -webkit-border-radius: 3px;
     -moz-border-radius: 3px;
     border-radius: 3px;
-    height: 900px;
-    max-height: 900px;
-    width: auto;
+    width: 1000px;
+    height: auto;
+  }
+  #owl-demo {
+    height: 1100px !important;
   }
 
   .owl-theme .owl-controls {
