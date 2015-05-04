@@ -529,7 +529,13 @@ _\ \ | | | | | (_| | | |  / / | (_| | |_) | |  __/ |_\__ \
       display: inline-block; }
 
   .inteior-content .side-bar {
-    width: 360px; } }
+    width: 360px; }
+
+  // specify height so footer doesn't jump around
+  #owl-demo {
+    height: 1100px;
+  }
+}
 @media (min-width: 1800px) {
   .inteior-content .side-bar {
     width: 450px; }
