@@ -359,12 +359,15 @@ _\ \ | | | | | (_| | | |  / / | (_| | |_) | |  __/ |_\__ \
 
   .owl-carousel .owl-item img {
     display: block;
-    width: 90%;
+    // width: 90%;
     margin: 0 auto;
-    height: auto;
+    // height: auto;
     -webkit-border-radius: 3px;
     -moz-border-radius: 3px;
-    border-radius: 3px; }
+    border-radius: 3px;
+    height: 900px;
+    width: auto;
+  }
 
   .owl-theme .owl-controls {
     position: absolute;
@@ -494,9 +497,6 @@ _\ \ | | | | | (_| | | |  / / | (_| | |_) | |  __/ |_\__ \
     padding-left: 30px;
     padding-top: 0;
     width: 300px; }
-  #owl-demo {
-    max-height: 1100px !important;
-  }
 }
 @media (min-width: 1257px) {
   header {
