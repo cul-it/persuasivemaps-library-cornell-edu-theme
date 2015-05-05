@@ -279,6 +279,12 @@ footer {
   margin-left: 15px;
   margin-top: 0; }
 
+// make first About link match the rest of the links
+.block-title {
+  font-family: 'Source Sans Pro', helvetica, Sans-serif, Arial, Verdana;
+  font-weight: normal;
+}
+
 // specify height so footer doesn't jump around
 #owl-demo {
   height: 500px;
