@@ -283,8 +283,8 @@ footer {
 .block-title {
   font-family: 'Source Sans Pro', helvetica, Sans-serif, Arial, Verdana;
   font-weight: normal;
-  a:hover {
-    text-decoration: none;
+  a.active-trail:hover {
+    text-decoration: none !important;
   }
 }
 
