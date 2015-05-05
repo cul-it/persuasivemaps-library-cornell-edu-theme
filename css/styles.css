@@ -321,6 +321,8 @@ footer a:hover {
 .block-title {
   font-family: 'Source Sans Pro', helvetica, Sans-serif, Arial, Verdana;
   font-weight: normal; }
+  .block-title a:hover {
+    text-decoration: nonel; }
 
 #owl-demo {
   height: 500px; }

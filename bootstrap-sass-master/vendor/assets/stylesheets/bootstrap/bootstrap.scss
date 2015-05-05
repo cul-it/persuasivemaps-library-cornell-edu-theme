@@ -283,6 +283,9 @@ footer {
 .block-title {
   font-family: 'Source Sans Pro', helvetica, Sans-serif, Arial, Verdana;
   font-weight: normal;
+  a:hover {
+    text-decoration: none;
+  }
 }
 
 // specify height so footer doesn't jump around
