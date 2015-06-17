@@ -333,6 +333,8 @@ footer a:hover {
   border: none;
   font-size: 20px;
   padding: 10px; }
+  .browse-collection a {
+    font-size: 18px; }
 
 .browse-collection span.glyphicon {
   font-size: 16px !important; }
