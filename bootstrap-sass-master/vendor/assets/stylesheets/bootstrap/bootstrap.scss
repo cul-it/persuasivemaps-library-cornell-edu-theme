@@ -293,6 +293,18 @@ footer {
   height: 450px;
 }
 
+// Use blue browse button on Image Browser Tips page too -- so make it less specific
+.browse-collection {
+  background-color: #084ea6;
+  color: #fff;
+  border: none;
+  font-size: 20px;
+  padding: 10px;
+}
+.browse-collection span.glyphicon {
+  font-size: 16px !important;
+}
+
 /* Extra small devices (phones, up to 480px) */
 /* No media query since this is the default in Bootstrap */
 /*

@@ -327,6 +327,16 @@ footer a:hover {
 #owl-demo {
   height: 450px; }
 
+.browse-collection {
+  background-color: #084ea6;
+  color: #fff;
+  border: none;
+  font-size: 20px;
+  padding: 10px; }
+
+.browse-collection span.glyphicon {
+  font-size: 16px !important; }
+
 /* Extra small devices (phones, up to 480px) */
 /* No media query since this is the default in Bootstrap */
 /*
