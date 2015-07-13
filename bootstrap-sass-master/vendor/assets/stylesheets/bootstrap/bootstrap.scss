@@ -200,11 +200,12 @@ footer {
   .inteior-content p,
   .inteior-content li {
     font-size: 20px; }
-    .inteior-content p a {
-      color: #fff;
-      text-decoration: underline; }
-    .inteior-content p a:hover {
-      text-decoration: none; }
+  .inteior-content p a,
+  .inteior-content li a {
+    color: #fff;
+    text-decoration: underline; }
+  .inteior-content p a:hover {
+    text-decoration: none; }
   .inteior-content .side-bar {
     margin-top: 20px;
     border-top: 1px solid #6e6f69;
