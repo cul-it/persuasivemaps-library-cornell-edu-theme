@@ -311,6 +311,11 @@ footer {
     font-size: 18px;
   }
 }
+// make sure dropdown links are the right color on Image Browser Tips page
+.inteior-content .dropdown li a {
+  color: #333;
+  text-decoration: none;
+}
 
 /* Extra small devices (phones, up to 480px) */
 /* No media query since this is the default in Bootstrap */

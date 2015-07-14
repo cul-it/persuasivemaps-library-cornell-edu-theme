@@ -342,6 +342,10 @@ footer a:hover {
 .browse-dropdown li {
   font-size: 18px; }
 
+.inteior-content .dropdown li a {
+  color: #333;
+  text-decoration: none; }
+
 /* Extra small devices (phones, up to 480px) */
 /* No media query since this is the default in Bootstrap */
 /*
