@@ -88,6 +88,10 @@ header {
         display: block;
         font-size: 26px;
         font-weight: 400; }
+    .home-content .home-intro h4 {
+        display: block;
+        font-size: 26px;
+        font-weight: 400; }
     .home-content .home-intro p {
       font-size: 20px; }
       .home-content .home-intro p a {
@@ -580,12 +584,3 @@ _\ \ | | | | | (_| | | |  / / | (_| | |_) | |  __/ |_\__ \
 
 /*# sourceMappingURL=bootstrap.scss.map */
 
-
-// Custom print styles
-// ------------------------- //
-
-@media print {
-  .home-content h3 span {
-    display: block !important;
-  }
-}
