@@ -579,3 +579,13 @@ _\ \ | | | | | (_| | | |  / / | (_| | |_) | |  __/ |_\__ \
 }
 
 /*# sourceMappingURL=bootstrap.scss.map */
+
+
+// Custom print styles
+// ------------------------- //
+
+@media print {
+  .home-content .home-intro h3 span {
+    display: block;
+  }
+}
