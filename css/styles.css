@@ -619,7 +619,7 @@ _\ \ | | | | | (_| | | |  / / | (_| | |_) | |  __/ |_\__ \
     height: 1200px; } }
 /*# sourceMappingURL=bootstrap.scss.map */
 @media print {
-  .home-content .home-intro h3 span {
-    display: block; } }
+  .home-content h3 span {
+    display: block !important; } }
 
 /*# sourceMappingURL=styles.css.map */
