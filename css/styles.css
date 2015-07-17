@@ -95,6 +95,7 @@ header .navbar .navbar-header h2 a {
 .home-content .home-intro h3 {
   font-size: 30px;
   font-weight: 700;
+  margin-bottom: 0;
   margin-top: 40px; }
 
 .home-content .home-intro h3 span {
