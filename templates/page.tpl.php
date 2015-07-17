@@ -133,8 +133,7 @@ $theme_path = base_path() . 'sites/all/themes/persuasivemaps_bootstrap';
 
             <div class="col-xs-12 col-sm-12 col-md-12 col-lg-9 interior-copy">
 
-                <h3>PERSUASIVE CARTOGRAPHY</h3>
-                <h4>The PJ Mode Collection</h4>
+                <h3>PERSUASIVE CARTOGRAPHY<div>The PJ Mode Collection</div></h3>
 
                 <?php print render($page['content']); ?>
 
