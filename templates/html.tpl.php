@@ -20,10 +20,10 @@ $theme_path = base_path() . 'sites/all/themes/persuasivemaps_bootstrap';
         <meta name="viewport" content="width=device-width, initial-scale=1.0"> <!-- removing initial-scale=1.0 disables zooming capabilities -->
 
         <!-- Google fonts -->
-        <link href='http://fonts.googleapis.com/css?family=Quicksand:400,300' rel='stylesheet' type='text/css'>
-        <link href='http://fonts.googleapis.com/css?family=Source+Sans+Pro:400,700' rel='stylesheet' type='text/css'>
+        <link href='//fonts.googleapis.com/css?family=Quicksand:400,300' rel='stylesheet' type='text/css'>
+        <link href='//fonts.googleapis.com/css?family=Source+Sans+Pro:400,700' rel='stylesheet' type='text/css'>
 
-        <link href="http://maxcdn.bootstrapcdn.com/font-awesome/4.2.0/css/font-awesome.min.css" rel="stylesheet">
+        <link href="//maxcdn.bootstrapcdn.com/font-awesome/4.2.0/css/font-awesome.min.css" rel="stylesheet">
 
         <?php print $styles; ?>
 
@@ -56,7 +56,7 @@ $theme_path = base_path() . 'sites/all/themes/persuasivemaps_bootstrap';
     <?php print $page; ?>
     <?php print $page_bottom; ?>
 
-    <script type="text/javascript" src="http://code.jquery.com/jquery-1.10.2.min.js"></script>
+    <script type="text/javascript" src="//code.jquery.com/jquery-1.10.2.min.js"></script>
    <!-- <script type="text/javascript" src="https://netdna.bootstrapcdn.com/bootstrap/3.1.1/js/bootstrap.min.js"></script>-->
    
     <script type="text/javascript" src="<?php print $theme_path; ?>/js/owl.carousel/owl-carousel/owl.carousel.js"></script>
